@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zl5jkWNPtxOZAWMjZUGqMr1bLTO6",
+    "object": "chat.completion",
+    "created": 1680177047,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1386,
+        "completion_tokens": 884,
+        "total_tokens": 2270
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's symptoms suggest a potential issue with blood flow or cardiac function. Captopril and hypertension are unlikely to be causing the symptoms as the blood pressures are within normal range. Left bundle branch block is also unlikely based on the patient's history and vital signs. Right bundle branch block, however, can cause cardiac issues and reduced blood flow to the brain, leading to the patient's presyncope symptoms."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's blood pressure is within his baseline measurements, and captopril is not known to cause presyncope. Left bundle branch block may cause cardiac symptoms, but it is unlikely to cause lightheadedness and presyncope. Right bundle branch block is associated with conduction delays that can lead to reduced cardiac output and lightheadedness, making it the most likely cause of the patient's symptoms."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's symptoms suggest a possible orthostatic hypotension or vasovagal syncope. Of the given options, captopril and hypertension are unlikely causes. Left bundle branch block usually doesn't cause syncope, but right bundle branch block can cause conduction delays and decrease cardiac output, which could cause the patient's symptoms."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient presents with lightheadedness and the feeling that he is going to \"pass out\", which suggests presyncope. The blood pressure levels are similar to his baseline measurements, and his supine and standing blood pressure levels are not significantly different. This suggests that hypertension and captopril are unlikely to be the cause of his symptoms. The ECG rhythm strip may reveal a block, and among the options, only right bundle branch block can be associated with presyncope."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms and the patient\u2019s history of hypertension suggest that hypertension is not the cause of his presyncope. Captopril can cause lightheadedness, but it is unlikely to cause a fever. Left bundle branch block is usually asymptomatic and is not likely to cause presyncope. On the other hand, right bundle branch block can cause presyncope or syncope due to delayed ventricular activation."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s blood pressure is not significantly different in different positions, minimizing the possibility of orthostatic hypotension. Captopril typically lowers blood pressure rather than causing lightheadedness. Left bundle branch block is not associated with presyncope. On the other hand, right bundle branch block can cause delayed ventricular activation and lower cardiac output, leading to decreased blood pressure and lightheadedness."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms suggest a cardiovascular cause. The blood pressure measurements suggest orthostatic hypotension, which can cause presyncope. Among the options, only right bundle branch block can cause this symptom. Captopril is mainly used to treat hypertension and left bundle branch block will not cause presyncope."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Captopril is unlikely to cause presyncope. Hypertension is not causing a significant change in blood pressure when assuming different positions. Left bundle branch block is unlikely to cause presyncope. Right bundle branch block can cause conduction abnormalities in the heart, leading to decreased cardiac output and presyncope."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's symptoms suggest hypotension, which is not caused by captopril or hypertension. The ECG rhythm strip may reveal the cause of the presyncope, and the options given suggest potential ECG findings. Right bundle branch block can indicate conduction abnormalities and impair the heart's ability to pump blood effectively, which can lead to hypotension and presyncope."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s blood pressure is not significantly different in different positions, suggesting that orthostatic hypotension is unlikely. The ECG rhythm strip showed a right bundle branch block, which may cause presyncope. Captopril and hypertension are unlikely causes as the patient\u2019s blood pressure is well-controlled and similar to his previous visits. Left bundle branch block is also an unlikely cause in this scenario."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

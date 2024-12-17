@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zrt6sk0MNLNd5Czvu3vB9mAhfrzh",
+    "object": "chat.completion",
+    "created": 1680203172,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1438,
+        "completion_tokens": 776,
+        "total_tokens": 2214
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has focal back pain that is worsened with moving and lifting and relieved with rest and ibuprofen, which suggests a muscle strain. The history of IV drug use puts the patient at risk for spinal infection, but the lack of fever and normal C-reactive protein make epidural abscess or hematoma less likely. A compression fracture would be more likely if there was midline tenderness on exam."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's symptoms and exam findings suggest a musculoskeletal rather than a neurological or infectious cause of back pain. The history of lifting and the absence of systemic signs of infection or inflammation also point towards a muscle strain as the most likely diagnosis. Compression fracture, epidural abscess, and epidural hematoma are less likely based on the patient's exam and history."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Mayo Clinic article on back pain for help. The patient\u2019s symptoms and history indicate that the most likely diagnosis is muscle strain. The focal pain on one side of the spine, relief with rest and ibuprofen, and lack of midline tenderness are all consistent with muscle strain. Compression fracture would typically have midline tenderness and may not be related to lifting a heavy box. Epidural abscess and hematoma are both rare causes of back pain and would typically have more systemic symptoms and neurological deficits."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of lifting heavy boxes and the symptoms started gradually, which suggest a muscle strain. There are no signs of spinal cord compression or infection, such as midline tenderness, fever or elevated inflammatory markers, which rules out the other options."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s history of lifting a heavy box and the localized back pain suggest muscle strain as the most likely diagnosis. Compression fracture, epidural abscess, and epidural hematoma are possible causes of back pain but are associated with midline tenderness and other symptoms, which are not present in this patient."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms and the history of lifting a heavy box suggest muscle strain. The lack of midline tenderness or other neurological deficits argues against compression fracture, epidural abscess, or epidural hematoma. The patient\u2019s laboratory values are also unremarkable."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of lifting a heavy box, and the pain is relieved with rest and ibuprofen, suggesting that the most likely diagnosis is a muscle strain. Compression fracture, epidural abscess, and epidural hematoma would cause more severe and consistent pain, and laboratory values would likely be abnormal in these conditions."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms and history suggest that the most likely diagnosis is muscle strain. Other options such as epidural abscess or hematoma would have additional symptoms such as fever, neurological deficits, or midline tenderness. Compression fracture is possible but less likely given the patient\u2019s age and lack of trauma to the spine."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms, medical history, and physical examination suggest a muscle strain as the most likely diagnosis. There are no signs of infection or neurological deficits that would suggest epidural abscess or hematoma. Compression fracture typically has midline tenderness and may be associated with osteoporosis, which is not mentioned as a risk factor for this patient."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s history of lifting a heavy box and absence of midline tenderness on physical exam suggest a muscle strain as the most likely diagnosis. Compression fracture, epidural abscess, and epidural hematoma are less likely based on the absence of other relevant symptoms and findings."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

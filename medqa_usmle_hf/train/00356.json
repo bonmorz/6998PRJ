@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zd1Hpzwq012xptzVj5ZKxq0np5Xh",
+    "object": "chat.completion",
+    "created": 1680146019,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1415,
+        "completion_tokens": 745,
+        "total_tokens": 2160
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is 6 months into the 4 drug regimen for tuberculosis, and the symptoms suggest drug-induced lupus erythematosus. Out of the 4 drugs, only Isoniazid is known to cause drug-induced lupus erythematosus."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms suggest a hypersensitivity reaction, which is a known side effect of isoniazid. The other drugs listed do not have this side effect."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has been started on a 4 drug regimen, which includes Rifampicin, Isoniazid, Ethambutol, and Streptomycin. The symptoms of joint pain, skin rash, and malaise suggest drug-induced lupus, which can be caused by Isoniazid."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is being treated for tuberculosis with a 4-drug regimen, including isoniazid. The symptoms of joint pain, skin rash, and malaise suggest drug-induced lupus erythematosus, which is a known adverse effect of isoniazid. Rifampicin can cause flu-like symptoms, Ethambutol can cause optic neuritis, and Streptomycin can cause ototoxicity and nephrotoxicity."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient was diagnosed with tuberculosis and started on a 4 drug regimen which includes Rifampicin, Isoniazid, Ethambutol, and Pyrazinamide. The symptoms described suggest drug-induced lupus erythematosus, which is a known side effect of Isoniazid."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The initial symptoms and positive Mantoux test suggest tuberculosis, which is typically treated with a 4 drug regimen including Isoniazid. The symptoms the patient returns with \u2013 joint pain, skin rash, and positive ANA and anti-histone antibodies \u2013 suggest drug-induced lupus, which is a rare side-effect of Isoniazid."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient had a positive Mantoux test and sputum analysis identified acid-fast bacilli, which suggest tuberculosis. The 4 drug regimen typically includes rifampicin, isoniazid, ethambutol, and pyrazinamide. However, the symptoms of joint pain, skin rash, and positive ANA and anti-histone antibodies are suggestive of drug-induced lupus. Isoniazid is the most common drug associated with drug-induced lupus, therefore it is the cause of the patient's symptoms."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has been started on a 4 drug regimen, but only Isoniazid is associated with drug-induced lupus, which presents with joint pain, skin rash, and ANA/anti-histone antibodies positivity. The other drugs have different potential side effects, but not lupus."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient was on a 4 drug regimen for tuberculosis, and the symptoms she is now experiencing suggest drug-induced lupus erythematosus. Among the options, only Isoniazid is known for inducing lupus-like symptoms."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms are suggestive of systemic lupus erythematosus (SLE), which is a known side effect of isoniazid. This drug-induced lupus can present as joint pain, rash, and malaise. None of the other options are known to cause lupus-like symptoms."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

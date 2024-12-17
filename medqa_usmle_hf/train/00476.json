@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zdCGvXpZhOxY1LCXNKUt5Pyv9PMU",
+    "object": "chat.completion",
+    "created": 1680146700,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1488,
+        "completion_tokens": 965,
+        "total_tokens": 2453
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of methadone use, which can prolong QT interval, and the telemetry in the emergency department shows polymorphic ventricular tachycardia, which is often associated with a prolonged QT interval. Brugada syndrome also causes ventricular arrhythmia but it presents with a typical ECG pattern. Prinzmetal angina can cause syncope but it is accompanied by chest pain. Hypomagnesemia can also cause QT prolongation but the patient\u2019s serum electrolyte concentrations are normal."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The cyclic alteration of the QRS axis implies polymorphic ventricular tachycardia, which can be caused by a prolonged QT interval. The patient's medications, such as methadone, can also prolong the QT interval. Prinzmetal angina is unlikely since the patient does not have chest pain. Brugada syndrome is also a possibility, but prolonged QT interval is the most likely cause in this case. Hypomagnesemia can also cause prolonged QT interval, but there is no evidence of electrolyte abnormalities in the laboratory results."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of type 2 diabetes mellitus and takes methadone for chronic pain, which can cause QT interval prolongation. The presence of polymorphic ventricular tachycardia with cyclic alteration of the QRS axis suggests prolonged QT interval as the most likely underlying cause of syncope. Prinzmetal angina is characterized by chest pain due to coronary artery vasospasm, which the patient does not report having. Brugada syndrome is a genetic condition that leads to abnormal heart rhythms and sudden cardiac death, but it typically occurs in younger patients and QT interval prolongation is not a prominent feature. Hypomagnesemia can cause QT interval prolongation, but it typically presents with other symptoms such as muscle weakness or cramping."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of methadone use, which can cause QT interval prolongation, and telemetry shows polymorphic ventricular tachycardia, which is a characteristic of torsades de pointes, a potentially life-threatening arrhythmia associated with QT interval prolongation. Therefore, the most likely underlying cause of this patient's syncope is prolonged QT interval."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of methadone use, which can prolong the QT interval, and telemetry showed polymorphic VT, which can be caused by prolonged QT interval. The other options are less likely based on the patient's history and presentation."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of hypertension and diabetes, and is taking methadone which can prolong the QT interval. The ECG telemetry shows polymorphic ventricular tachycardia with cyclic alteration of the QRS axis which is consistent with torsades de pointes, a type of arrhythmia associated with a prolonged QT interval. Therefore, the most likely underlying cause of the patient's syncope is prolonged QT interval."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The cyclic alteration of the QRS axis indicates that the patient has torsades de pointes, which can be caused by a prolonged QT interval. None of the other options are associated with this arrhythmia. The patient's medications for hypertension, diabetes, and chronic pain should be reviewed for potential QT prolongation."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's presentation suggests a cardiac cause of syncope. The polymorphic ventricular tachycardia with cyclic alteration of the QRS axis is characteristic of torsades de pointes, which is often associated with a prolonged QT interval. Prolonged QT interval is also a known side effect of methadone. Other options such as Prinzmetal angina, Brugada syndrome, and hypomagnesemia may also cause syncope, but the given clinical scenario points towards prolonged QT interval."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of methadone use, which can cause QT interval prolongation, and telemetry shows polymorphic ventricular tachycardia, which is often associated with QT interval prolongation. Prinzmetal angina and Brugada syndrome typically present with more specific symptoms and findings. Hypomagnesemia can also cause QT interval prolongation, but the patient's electrolytes are reported to be within normal limits."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has polymorphic ventricular tachycardia, which can be caused by prolonged QT interval. None of the other options match the symptoms."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

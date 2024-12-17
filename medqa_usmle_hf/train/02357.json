@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zfvjXolUjZdmo5vCRR9eLpQWU0IY",
+    "object": "chat.completion",
+    "created": 1680157207,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1336,
+        "completion_tokens": 899,
+        "total_tokens": 2235
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's symptoms are consistent with quinidine toxicity, which can cause tinnitus, headache, visual disturbances, severe diarrhea, and ventricular arrhythmias. Digoxin toxicity can cause similar symptoms but is less likely to cause ventricular tachycardia. Amiodarone and verapamil are not known to cause these symptoms."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms suggest toxicity related to the drug given for atrial arrhythmia. Among the options, Quinidine is the most likely cause of the symptoms, as it is known to cause tinnitus, headache, visual disturbances, diarrhea, and multifocal ventricular tachycardia. Digoxin and Verapamil can cause arrhythmia but not the other symptoms. Amiodarone can cause visual disturbances but not the other symptoms."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms suggested cinchonism, which is a side effect of quinidine. Mulitifocal ventricular tachycardia is also a known side effect of quinidine. None of the other options are known to cause these symptoms."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms and ECG findings suggest that the patient is experiencing torsades de pointes, which is associated with prolongation of the QT interval. Quinidine is a class Ia antiarrhythmic drug that can cause QT prolongation and increase the risk of torsades de pointes. The other drugs listed do not have the same risk of causing torsades de pointes."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms, including tinnitus, headache, visual disturbances, and severe diarrhea, suggest quinidine toxicity. The ECG findings support this, as a multifocal ventricular tachycardia is a known complication of quinidine use. Digoxin is used to treat atrial arrhythmias but does not cause the symptoms described. Amiodarone and verapamil are less likely to cause the described symptoms and would not typically cause ventricular tachycardia with a continuous change in the QRS electrical axis."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms suggest a high level of toxicity from the drug, and among the options, only Quinidine is associated with a high risk of ventricular arrhythmias. Digoxin can cause tinnitus, but not severe diarrhea. Amiodarone and Verapamil are less likely to cause these symptoms."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms suggest a drug-induced overdose, and among the options, Quinidine is known to cause tinnitus, headache, visual disturbances, and diarrhea. The ECG findings of multifocal ventricular tachycardia with continuous change in the QRS electrical axis are also consistent with Quinidine overdose."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's symptoms and sudden fainting, along with the presence of multifocal ventricular tachycardia, suggest torsades de pointes, a ventricular tachycardia associated with QT prolongation. Quinidine is a medication that can cause QT prolongation and is therefore the most likely cause of the patient's symptoms. Digoxin, amiodarone, and verapamil are not known to cause QT prolongation or torsades de pointes."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms of tinnitus, headache, visual disturbances, and severe diarrhea suggest cinchonism, which is a side effect of quinidine. The presence of multifocal ventricular tachycardia also suggests quinidine toxicity. None of the other options are known for causing these symptoms."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's symptoms suggest quinidine toxicity, which can lead to arrhythmias, tinnitus, headache, and blurred vision. The presence of multifocal ventricular tachycardia with continuous change in QRS electrical axis is also consistent with quinidine toxicity. Digoxin can cause tinnitus and visual disturbances but does not typically cause arrhythmias. Amiodarone can cause ventricular arrhythmias but the continuous change in QRS electrical axis is not typical. Verapamil is not known to cause these symptoms."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

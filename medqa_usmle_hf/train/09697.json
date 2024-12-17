@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zs23nadmPWpDrHysGrfVhlkGuc4m",
+    "object": "chat.completion",
+    "created": 1680203727,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1480,
+        "completion_tokens": 911,
+        "total_tokens": 2391
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Due to the patient being on a ventilator, enteral feeding via nasogastric tube is the most appropriate next step in managing the patient's nutrition. Oral feeding and PEG tube are not recommended while the patient is on a ventilator, and total parenteral nutrition is reserved for patients who cannot tolerate enteral nutrition or have a contraindication to tube feeding."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is on a ventilator, which means he cannot eat orally. Total parenteral nutrition is reserved for patients who cannot tolerate or have contraindications to enteral feeding. Enteral feeding via nasogastric tube is the most appropriate next step in managing the patient's nutrition. PEG tube is reserved for long-term enteral feeding."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Since the patient is on a ventilator and has had recent surgery, enteral feeding via a nasogastric tube is the most appropriate next step in managing his nutrition. Total parenteral nutrition should be used only when enteral feeding is not possible or contraindicated. PEG tube may be used for longer-term feeding, but enteral feeding via nasogastric tube is the safer option given the recent surgery. Oral feeding is not appropriate at this time due to the patient being on a ventilator and the risk of aspiration."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is on a ventilator and cannot eat orally or through a PEG tube. Total parenteral nutrition is typically reserved for patients with severe gastrointestinal dysfunction. Enteral feeding via nasogastric tube is the most appropriate next step for nutrition in this patient."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. As the patient is on a ventilator and cannot eat orally, the most appropriate next step is to provide enteral feeding via nasogastric tube. Total parenteral nutrition and PEG tube feeding are not necessary at this time and carry their own risks and complications."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient underwent surgery for an epidural hematoma with a midline shift and is currently being monitored in the ICU. Enteral feeding via nasogastric tube is the most appropriate next step in managing the patient's nutrition as it minimizes the risk of infection and potential complications associated with total parenteral nutrition or PEG tube placement. Oral feeding is not appropriate at this time as the patient is still intubated and unable to swallow safely."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is in the intensive care unit and is not able to eat, so enteral feeding via nasogastric tube is the most appropriate option. Total parenteral nutrition is generally reserved for patients who cannot tolerate enteral feeding, and oral feeding and PEG tube can be considered once the patient is stable and able to tolerate them."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient had a craniotomy and hematoma evacuation, and is currently under ventilation. Enteral feeding via nasogastric tube is the most appropriate next step in managing his nutrition as he is unable to take food orally, but enteral feeding is preferred over total parenteral nutrition when possible to preserve gut function and reduce the risk of infections.  PEG tube may not be necessary at this time and can be considered if enteral feeding via nasogastric tube is not feasible for a longer duration."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is in the immediate postoperative period after a traumatic injury and surgical intervention, which increases the risk of gastrointestinal complications with enteral feeding. However, enteral feeding via nasogastric tube is recommended as it has shown to be safe and effective in providing adequate nutrition to critically ill patients. Total parenteral nutrition is generally reserved for patients who cannot tolerate enteral feeding, and PEG tube placement is not necessary at this time. Oral feeding is not recommended due to the patient's current respiratory status and risk of aspiration."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is intubated and therefore cannot take oral feeding. Total parenteral nutrition is not the first line for patients with functioning gastrointestinal tracts. Enteral feeding via nasogastric tube is the most appropriate option in this case due to the patient's stable condition and the need for nutrition support. A PEG tube may be considered if enteral feeding is needed for a longer period of time."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

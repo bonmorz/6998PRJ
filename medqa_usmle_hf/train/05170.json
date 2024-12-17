@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zkeLzthPoIlaI7bXmMUrZoiTrYC1",
+    "object": "chat.completion",
+    "created": 1680175349,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1306,
+        "completion_tokens": 744,
+        "total_tokens": 2050
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We are not provided with the EKG finding, therefore, we cannot provide a detailed explanation for this question."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The EKG shows a widened QRS complex, which is consistent with hyperkalemia. Acute kidney failure can cause hyperkalemia due to impaired renal excretion of potassium. Bundle branch conduction changes and failure of AV node conduction would manifest differently on the EKG, while interruption of pulmonary perfusion would not directly affect the QRS complex on the EKG."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to medical websites such as Mayo Clinic for help. The EKG shows peaked T waves, which can indicate hyperkalemia. Acute kidney failure can cause hyperkalemia due to impaired potassium excretion. None of the other options listed are associated with peaked T waves on an EKG."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The EKG shows a widened QRS complex, which can be a sign of hyperkalemia. Acute kidney failure can cause hyperkalemia due to the inability to excrete potassium properly. Bundle branch conduction changes and failure of atrioventricular node conduction may also cause changes in the EKG, but not specifically a widened QRS complex. Interruption of pulmonary perfusion would not cause changes in the EKG."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The EKG shows tall T waves, which can be a sign of hyperkalemia. Acute kidney failure can result in hyperkalemia due to decreased excretion of potassium. Bundle branch conduction changes and failure of atrioventricular node conduction may lead to different EKG patterns, while interruption of pulmonary perfusion is unlikely to cause hyperkalemia and T wave changes."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The EKG shown suggests hyperkalemia, which can be caused by acute kidney failure. Bundle branch conduction changes would result in a widened QRS complex, failure of atrioventricular node conduction would result in complete heart block, and interruption of pulmonary perfusion would not cause hyperkalemia or the EKG findings seen."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The EKG indicates hyperkalemia, which commonly occurs in acute kidney failure. Bundle branch conduction changes would show widened QRS complexes, failure of AV node conduction would show bradycardia, and interruption of pulmonary perfusion would show changes in the ST segment."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The EKG shows a long QT interval, which can be caused by electrolyte abnormalities, such as those seen in acute kidney failure. Bundle branch conduction changes would result in QRS complex changes, while failure of AV node conduction would result in an absence of P waves. Interruption of pulmonary perfusion would result in changes in the T waves."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The EKG shows prolonged QT interval, indicating a risk for arrhythmia, which can occur in acute kidney failure due to electrolyte imbalances, particularly hypokalemia and hypocalcemia. The other options would likely have different EKG findings."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The EKG shows peaked T waves, which are consistent with hyperkalemia. Acute kidney failure can cause hyperkalemia due to impaired excretion of potassium. Bundle branch conduction changes and failure of atrioventricular node conduction will show different EKG changes. Interruption of pulmonary perfusion may show ST segment changes or a right bundle branch block pattern, but not peaked T waves."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

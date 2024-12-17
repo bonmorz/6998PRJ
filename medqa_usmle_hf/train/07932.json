@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zpIOV5Enku8EljeNpZguVVnyM3tv",
+    "object": "chat.completion",
+    "created": 1680193208,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1311,
+        "completion_tokens": 1060,
+        "total_tokens": 2371
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The fact that radiolabeled carbon dioxide is detected when radiolabeled methylmalonic acid is added but not when radiolabeled propionate is added suggests a defect in the propionyl-CoA carboxylase enzyme. This enzyme is essential for the metabolism of branched-chain amino acids such as isoleucine and threonine, but not for the metabolism of phenylalanine. Therefore, only phenylalanine can be fully metabolized by this patient."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. This patient has a defect in propionyl-CoA carboxylase, which is involved in the breakdown of propionate, a byproduct of some amino acids. Therefore, amino acids that contribute to propionate production, such as isoleucine, threonine, and methionine, cannot be fully metabolized. Phenylalanine does not contribute to propionate production and can thus be fully metabolized. Therefore, the correct answer is (D)."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The lack of radiolabeled carbon dioxide from propionate suggests a defect in the propionyl-CoA carboxylase enzyme, which is necessary for the breakdown of branched-chain amino acids and odd-chain fatty acids. Among the options, only Phenylalanine is not a branched-chain amino acid or odd-chain fatty acid, and therefore can be fully metabolized by this patient."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The inability to produce radiolabeled carbon dioxide from propionate suggests a defect in the propionyl-CoA carboxylase pathway, which is involved in the metabolism of isoleucine, methionine, threonine, and valine. The ability to produce radiolabeled carbon dioxide from methylmalonic acid suggests that the patient has a defect in the methylmalonyl-CoA mutase pathway, which is involved in the metabolism of valine, isoleucine, threonine, and methionine. Therefore, the only amino acid that can be fully metabolized by this patient is phenylalanine, which is not involved in either of these pathways."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The inability to convert propionate to succinyl-CoA suggests a defect in the propionate pathway, which is necessary for metabolism of isoleucine, valine, methionine, and threonine. The fact that radiolabeled carbon dioxide is detected when radiolabeled methylmalonic acid is added suggests a normal pathway for the breakdown of propionyl-CoA to succinate. This points to a defect in the conversion of methylmalonyl-CoA to succinyl-CoA, which is necessary for the metabolism of propionate and therefore threonine and isoleucine. Phenylalanine can be metabolized via the phenylalanine pathway, which is not affected by the defect in propionate metabolism. Therefore, the patient can fully metabolize phenylalanine."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. This patient has a defect in the propionate metabolism pathway, which is used to break down certain amino acids and fatty acids. Phenylalanine does not require this pathway for metabolism and can be fully metabolized by the patient, so the answer is (D)."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The inability to produce radiolabeled carbon dioxide from propionate suggests a defect in the succinate dehydrogenase enzyme complex or the electron transport chain. Since radiolabeled carbon dioxide is detected from methylmalonic acid, the defect is likely not in the methylmalonyl-CoA mutase enzyme. Phenylalanine can be fully metabolized through the citric acid cycle, which is not affected by the suspected defect, so the answer is (D)."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The lack of radiolabeled carbon dioxide when propionate was added suggests a defect in the propionyl-CoA carboxylase enzyme, which is involved in the breakdown of some amino acids and fatty acids. Among the options, only Phenylalanine is not broken down by this enzyme and can therefore be fully metabolized."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The inability to metabolize propionate suggests a defect in the succinyl-CoA synthetase enzyme. This enzyme is required for the breakdown of propionate, a component of some amino acids, including isoleucine and threonine. Therefore, options B and C can be ruled out. On the other hand, phenylalanine can be fully metabolized by the patient since it does not contain propionate. Therefore, the correct answer is (D)."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The fact that radiolabeled carbon dioxide is generated from radiolabeled methylmalonic acid suggests a defect in the propionate metabolism pathway, leading to accumulation of propionyl-CoA, which can be converted to methylmalonic acid. Among the given options, phenylalanine can be metabolized through a separate pathway and is not affected by the propionate metabolism defect."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

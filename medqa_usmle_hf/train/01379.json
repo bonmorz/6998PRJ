@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zeY6UfaDtJM4DcnPifbfQ1ggGtxO",
+    "object": "chat.completion",
+    "created": 1680151898,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1313,
+        "completion_tokens": 918,
+        "total_tokens": 2231
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Both propranolol and carvedilol are beta blockers, but carvedilol has vasodilatory properties in addition to blocking beta receptors, which can lead to hypotension. Propranolol is less likely to cause hypotension, but is more likely to cause bradycardia. Hyperglycemia and bronchospasm are not typical adverse effects of beta blockers."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Carvedilol is a non-selective beta blocker and alpha-1 blocker, while propranolol is a non-selective beta blocker. Therefore, carvedilol is less likely to cause bradycardia but is more likely to cause hypotension due to its alpha-1 blocking effects. Hyperglycemia and bronchospasm are not common side effects of either drug."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Carvedilol is a nonselective beta-blocker with additional alpha-blocking activity, so it can cause hypotension, especially in patients with pre-existing low blood pressure. Propranolol can cause bradycardia and bronchospasm, and may also mask the symptoms of hypoglycemia, causing hyperglycemia."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Carvedilol is a non-selective beta blocker with alpha-1 blocking activity, thus it can cause vasodilation and hypotension. Propranolol is a non-selective beta blocker without alpha-1 blocking activity, which may cause bronchospasm or bradycardia but not hyperglycemia. Therefore, (A) hypotension is the most likely adverse effect of carvedilol compared to propranolol."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Carvedilol is a non-selective beta blocker with alpha-blocking activity, while propranolol is a non-selective beta blocker without alpha-blocking activity. Alpha blockade can cause vasodilation and hypotension, which is why the most likely adverse effect of carvedilol compared to propranolol is hypotension."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Carvedilol is a vasodilator and beta blocker, which may cause hypotension as an adverse effect. Propranolol is a non-selective beta blocker and may cause bradycardia as an adverse effect. Hyperglycemia and bronchospasm are not common adverse effects of either medication."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Carvedilol is a non-selective beta blocker with alpha-blocking properties. It has a greater propensity for reducing blood pressure than propranolol, which is a beta-1 selective blocker. Therefore, hypotension is the most likely adverse effect. Bradycardia is possible with both medications, but it\u2019s not the most likely adverse effect. Hyperglycemia and bronchospasm are rare side effects of beta blockers."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Carvedilol is a non-selective beta blocker with vasodilatory properties, while propranolol is a non-selective beta blocker without vasodilatory properties. Therefore, carvedilol is more likely to cause hypotension compared to propranolol, which may cause bradycardia instead. Hyperglycemia and bronchospasm are not common adverse effects of beta blockers."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Both carvedilol and propranolol are beta blockers, but carvedilol is also an alpha blocker, which can cause hypotension as a side effect. Propranolol can cause bradycardia, but that is not the most likely adverse effect compared to carvedilol. Hyperglycemia and bronchospasm are less likely to occur with these medications."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Carvedilol is a non-selective beta blocker with alpha-blocking activity that can cause hypotension. Propranolol, on the other hand, is a non-selective beta blocker that can cause bradycardia. Hyperglycemia is a side effect of beta blockers but it is not specific to carvedilol. Bronchospasm is a potential adverse effect of beta blockers in patients with asthma or chronic obstructive pulmonary disease, but it is not specific to propranolol."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

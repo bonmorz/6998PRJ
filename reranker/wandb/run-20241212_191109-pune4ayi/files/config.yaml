@@ -1,0 +1,112 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.15
+    cli_version: 0.15.12
+    framework: huggingface
+    huggingface_version: 4.47.0
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1734030669.485765
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      - 41
+      - 49
+      - 53
+      - 55
+      - 71
+      - 98
+      2:
+      - 1
+      - 5
+      - 11
+      - 41
+      - 49
+      - 53
+      - 55
+      - 71
+      - 98
+      3:
+      - 17
+      - 23
+      - 37
+      4: 3.10.15
+      5: 0.15.12
+      6: 4.47.0
+      8:
+      - 5
+      13: linux-x86_64
+dataset:
+  desc: null
+  value: strategyqa
+data_dir:
+  desc: null
+  value: ../preprocessed_data/strategyqa-cot
+search_space_dir:
+  desc: null
+  value: ./search_spaces/strategyqa-wikipedia
+knowledge_base:
+  desc: null
+  value: wikipedia
+save_dir:
+  desc: null
+  value: colbert_lr1e-3
+model_name:
+  desc: null
+  value: michiyasunaga/LinkBERT-base
+batch_size:
+  desc: null
+  value: 16
+max_seq_len:
+  desc: null
+  value: 512
+n_cands:
+  desc: null
+  value: 8
+num_epochs:
+  desc: null
+  value: 3
+debug:
+  desc: null
+  value: false
+tau:
+  desc: null
+  value: 1.0
+model_tau:
+  desc: null
+  value: 100.0
+lr:
+  desc: null
+  value: 0.0001
+no_report:
+  desc: null
+  value: false
+tau_annealing:
+  desc: null
+  value: true
+update_both:
+  desc: null
+  value: true
+loss_type:
+  desc: null
+  value: ce
+generate_search_space:
+  desc: null
+  value: true
+no_scheduler:
+  desc: null
+  value: false
+alpha:
+  desc: null
+  value: 1.0
+only_from_rationale:
+  desc: null
+  value: false
+only_from_question:
+  desc: null
+  value: false

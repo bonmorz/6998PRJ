@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zlanG23ZUtS98gvowYyhRVw0wXX1",
+    "object": "chat.completion",
+    "created": 1680178973,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1366,
+        "completion_tokens": 904,
+        "total_tokens": 2270
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to the EKG image for help. The image shows a sinus bradycardia with a PR interval of around 0.24 seconds, which suggests that the AV node is likely in use as the pacemaker site. The presence of elevated troponin levels indicates possible myocardial damage or injury, and the patient may require further cardiac evaluation and management."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The EKG shows a junctional rhythm with a narrow QRS complex and inverted P waves which suggest the pacemaker site is the AV node. In a normal sinus rhythm, the pacemaker site would be the SA node, and the atrial myocardium and Purkinje fibers are not primary pacemaker sites. The patient's elevated troponin level suggests the possibility of an acute coronary event."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The EKG exhibits a third-degree heart block, which means that the electrical signal is not passing from the atria to the ventricles. Therefore, a pacemaker site lower than the SA node is being used to regulate the heart rate. Option B, the AV node, is responsible for this regulation in cases of third-degree heart block."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The EKG shows a regular rhythm with narrow QRS complexes, indicating a ventricular rate of 45-50/min, which is below the normal range. The P wave is absent and replaced by a regular spike. This suggests that the pacemaker is in use at the AV node to maintain an adequate heart rate."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The EKG shows a pacing spike before each QRS complex, suggesting the use of a pacemaker. The heart rate is also low at 47/min, indicating the use of an artificial pacemaker. The location of the pacemaker is determined by the morphology of the QRS complex, which in this case is narrow and normal, indicating that the pacemaker is in the AV node. Therefore, the answer is (B) AV node."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to the EKG exhibit which shows a paced rhythm with a narrow QRS complex and a P wave that follows the QRS complex. This suggests that the pacemaker site is the AV node. The SA node is the natural pacemaker of the heart and typically results in a normal sinus rhythm without a paced rhythm. Atrial myocardium pacing would typically display a P wave before the QRS complex, while Purkinje fiber pacing would typically display a wide QRS complex."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The EKG shows a heart rate that vacillates around 47/min, while the QRS complexes are narrow. This suggests that an AV node pacemaker is being used to maintain cardiac output. The SA node and the atrial myocardium have faster heart rates, and the Purkinje fibers are responsible for ventricular contraction, not pacing."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The exhibited EKG shows a third-degree heart block with a ventricular pacing rhythm, which suggests that the pacemaker site in use is the AV node. The SA node is not functioning properly, which is why the patient is experiencing chest pressure and the heart rate is low."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to the electrocardiogram (EKG) shown in the exhibit, which shows a third-degree atrioventricular (AV) block with a junctional escape rhythm. This suggests that the AV node is likely in use as the pacemaker site in this patient, as the SA node is failing to depolarize the atria and the Purkinje fibers are not involved in pacing the heart. The elevated troponin level and chest pressure suggest an acute coronary syndrome as the cause of the patient's symptoms."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to the provided exhibit to see the patient\u2019s EKG. The EKG shows a bradycardia with a narrow QRS complex, as well as a prolonged PR interval. These findings suggest that the patient may have 2nd degree AV block, particularly Type I, also known as Mobitz I or Wenckebach. This type of AV block is characterized by progressive prolongation of the PR interval until one of the atrial impulses is blocked and does not conduct to the ventricle, resulting in a dropped beat. The pacemaker site for this patient is likely the AV node, as the atrial impulses are being conducted through the AV node before being blocked."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zjxu2M4HDUzilPjsadIc4LB9kzxG",
+    "object": "chat.completion",
+    "created": 1680172718,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1639,
+        "completion_tokens": 886,
+        "total_tokens": 2525
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient presents with symptoms of a stroke, and the high blood pressure suggests that the treatment is necessary. The most likely treatment is tissue plasminogen activator (tPA), which is contraindicated for patients with a systolic blood pressure over 185 mmHg. Therefore, the correct answer is (C). The other options listed are within the normal range or not related to the contraindications for tPA."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is experiencing symptoms of a stroke and the high blood pressure indicates that he is in hypertensive crisis, which is a contraindication for thrombolytic therapy. The other options do not contraindicate the use of thrombolytic therapy."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms suggest a possible stroke and the high blood pressure needs to be managed. The standard therapy for stroke involves thrombolytic therapy, but it is contraindicated in patients with systolic blood pressure higher than 185 mm Hg. Therefore, the correct answer is (C). The other options are not relevant contraindications for thrombolytic therapy."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms, including slurred speech and weakness in the left arm and leg, suggest a stroke. The vital signs indicated hypertension, and the lab results are within reference ranges except for the cholesterol and platelet count. The contraindication to starting standard therapy is the systolic blood pressure of 200 mm Hg, which is too high for administration of tPA (tissue plasminogen activator), the standard treatment for ischemic stroke."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is likely experiencing a stroke, as evidenced by the slurred speech and weakness on one side. The high blood pressure indicates a hypertensive emergency, which requires immediate treatment with thrombolytic therapy. However, the contraindication is the level of systolic blood pressure over 185 mm Hg, which is above the threshold for administration of thrombolytics. Age, creatinine level, and cholesterol level are not contraindications for thrombolytic therapy."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's symptoms suggest a stroke and the blood pressure is very high, which is a contraindication for administering tissue plasminogen activator (tPA), the standard therapy for stroke. The other factors, such as creatinine level, cholesterol level, and age, are not directly related to the administration of tPA."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is likely experiencing a stroke with a high blood pressure that needs to be lowered immediately to prevent further damage. Therefore, the correct answer is (C) systolic blood pressure of 200 mm Hg. The other options do not contraindicate standard stroke therapy."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms and lab results suggest a possible stroke or transient ischemic attack (TIA), and the patient is within the time frame for standard therapy. However, the systolic blood pressure of 200 mm Hg is a contraindication for thrombolytic therapy due to an increased risk of bleeding. Therefore, blood pressure control should be the initial focus of treatment before consideration of thrombolytic therapy."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is presenting with symptoms of a stroke and the elevated blood pressure is a contraindication for giving thrombolytic therapy, which should be initiated within 3 hours of symptom onset. None of the other options are contraindications for thrombolytic therapy."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is likely experiencing a stroke given the symptoms, and the elevated blood pressure indicated by the vital signs must be controlled before administering thrombolytic therapy. A systolic blood pressure of 200 mm Hg is a contraindication for thrombolytic therapy, and antihypertensive medication may need to be given before initiating treatment. The creatinine level is within normal range, the cholesterol level is elevated but not a contraindication for thrombolytic therapy, and age alone is not a contraindication."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zk9EXjdnevTttUoyE0EjUxoVl0vL",
+    "object": "chat.completion",
+    "created": 1680173420,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1311,
+        "completion_tokens": 976,
+        "total_tokens": 2287
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Metformin is excreted unchanged by the kidneys, and therefore, caution is required in patients with renal impairment. Creatinine is a marker of renal function, and a level above 2.0 is considered significant renal dysfunction. Therefore, a creatinine level above 2.0 would be a contraindication to the use of metformin. Option (A) and (B) are within normal ranges, and option (C) is a high glucose level commonly seen in diabetes mellitus."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Metformin is contraindicated in patients with impaired renal function as it can cause lactic acidosis. Creatinine > 2.0 indicates impaired renal function, making it a contraindication to the use of metformin. The other options do not have a direct contraindication to metformin use, although glucose > 300 may require other medications in addition to metformin for glucose control."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Metformin can cause lactic acidosis, especially in those with renal impairment. Creatinine > 2.0 is a contraindication for metformin use, as it indicates significant renal impairment. All other options are within normal ranges or not significantly elevated."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to the American Diabetes Association's Clinical Practice Recommendations for guidance. Metformin is contraindicated in patients with a serum creatinine level greater than or equal to 1.5 mg/dL in males or 1.4 mg/dL in females, or an estimated glomerular filtration rate (eGFR) less than 30 mL/min/1.73 m2. Therefore, the correct answer is (D) creatinine > 2.0. The other options are not contraindications for metformin use, although glucose > 300 mg/dL suggests poor glycemic control and may require additional interventions."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Metformin is excreted in the urine, and impaired renal function can lead to increased metformin levels and lactic acidosis. Therefore, a creatinine level greater than 2.0 mg/dL would be a contraindication to the use of metformin. K+ > 4.0, Na+ > 140, and glucose > 300 are not contraindications to the use of metformin."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Metformin is excreted by the kidneys and is contraindicated for use in patients with renal impairment. Therefore, a creatinine level > 2.0 would indicate renal impairment and serve as a contraindication to the use of metformin."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Metformin is known to cause lactic acidosis, which is more likely to develop in patients with impaired renal function. Thus, a high creatinine level (>2.0) would serve as a contraindication to the use of metformin. The other values listed are not contraindications to metformin use, although caution should be taken with glucose levels >300 as high levels may indicate a need for insulin therapy."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Metformin use is contraindicated with impaired renal function, which is indicated by elevated creatinine levels. Therefore, a creatinine level above 2.0 would serve as a contraindication to the use of metformin. The other values listed are within normal or acceptable ranges."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to the American Diabetes Association's Standards of Medical Care in Diabetes for help. The use of metformin is contraindicated when serum creatinine levels are greater than or equal to 1.5 mg/dL (males) or 1.4 mg/dL (females) or estimated glomerular filtration rates (eGFR) are less than 30 mL/min/1.73m2. Therefore, the correct answer is (D). The other values listed are within normal range or do not have a clear contraindication to the use of metformin."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to MedlinePlus for help. Metformin use is contraindicated in patients with impaired renal function or creatinine levels above 1.4 mg/dL in women and 1.5 mg/dL in men. Therefore, a creatinine level above 2.0 would indicate renal impairment and serve as a contraindication to the use of metformin. The other values listed may be indicative of diabetes or other conditions, but do not necessarily contraindicate the use of metformin."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

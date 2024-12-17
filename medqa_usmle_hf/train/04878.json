@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zk9JRAQZX3BcWM9H1M35CAMeuTDQ",
+    "object": "chat.completion",
+    "created": 1680173425,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1277,
+        "completion_tokens": 879,
+        "total_tokens": 2156
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to the Dictionary of Epidemiology for help. The definition given matches the concept of power, which is the probability of correctly rejecting a false null hypothesis (i.e. finding a statistically significant difference when one truly does exist). Type I error refers to rejecting a true null hypothesis, while Type II error refers to failing to reject a false null hypothesis. p-value is the level of statistical significance used to make a decision about rejecting or not rejecting the null hypothesis."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Power refers to the probability that a study will find a statistically significant difference when one truly does exist. Type I error refers to rejecting the null hypothesis when it is actually true, while Type II error refers to failing to reject the null hypothesis when it is actually false. The p-value is the probability of obtaining a test statistic as extreme or more extreme than the observed one when the null hypothesis is true."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on statistics for help. Power refers to the probability that a study will find a statistically significant difference when one truly does exist. Type I error refers to rejecting the null hypothesis when it is actually true, and Type II error refers to accepting the null hypothesis when it is actually false. p-value is the probability of obtaining a result as extreme or more extreme than the observed result, assuming the null hypothesis is true."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to a glossary of statistical terms for help. The definition provided matches the concept of power, which refers to the probability of correctly rejecting a false null hypothesis, or in other words, the likelihood of finding a statistically significant difference when one truly does exist. Type I error refers to rejecting a true null hypothesis, Type II error refers to accepting a false null hypothesis, and p-value refers to the probability of obtaining a result as extreme or more extreme than the observed result, assuming the null hypothesis is true."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on statistics for help. The definition given in the question refers to power. Type I error refers to the probability of falsely rejecting the null hypothesis, while Type II error refers to the probability of falsely accepting the null hypothesis. p-value is the probability of obtaining the observed results of a statistical test, assuming that the null hypothesis is true."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on statistics for help. Power refers to the probability that a study will find a statistically significant difference when one truly exists. Type I error refers to rejecting the null hypothesis when it is actually true, and Type II error refers to accepting the null hypothesis when it is actually false. The p-value is the probability of obtaining a result as extreme or more extreme than the observed result, assuming the null hypothesis is true."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Power refers to the probability that a study will find a statistically significant difference when one truly does exist. Type I error refers to mistakenly rejecting a true null hypothesis, while Type II error refers to accepting a false null hypothesis. p-value is the probability of obtaining results at least as extreme as the observed results, assuming that the null hypothesis is true."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Power refers to the probability that a study will find a statistically significant difference when one truly does exist, while type I error refers to the probability of rejecting a true null hypothesis and type II error refers to the probability of failing to reject a false null hypothesis. The p-value is the probability of obtaining a result at least as extreme as the one observed, assuming that the null hypothesis is true."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to literature on statistics for help. Power refers to the probability of finding a statistically significant difference when one truly exists. Type I error refers to incorrectly rejecting the null hypothesis when it is actually true, and Type II error refers to incorrectly accepting the null hypothesis when it is actually false. The p-value is the probability of obtaining the observed results, or more extreme results, under the assumption that the null hypothesis is true."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Power refers to the probability of correctly rejecting a false null hypothesis, or in other words, the probability of finding a statistically significant difference when one truly does exist. Type I error refers to rejecting a true null hypothesis, Type II error refers to accepting a false null hypothesis, and p-value is the probability of obtaining a result as extreme as or more extreme than the observed result by chance alone, assuming the null hypothesis is true."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

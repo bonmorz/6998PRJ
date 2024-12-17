@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zjon8EPo5pje7VzyM0lPZNmer0LF",
+    "object": "chat.completion",
+    "created": 1680172153,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1312,
+        "completion_tokens": 762,
+        "total_tokens": 2074
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Isoniazid works by inhibiting the synthesis of mycolic acids, necessary components of the bacterial cell wall. Mutations in the katG gene of Mycobacterium tuberculosis can result in isoniazid resistance, as this gene plays a role in activating the drug. The other options are not known mechanisms of isoniazid resistance."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Isoniazid requires conversion into its active form by the enzyme catalase-peroxidase, which is encoded by the katG gene. Mutations in katG can lead to resistance to isoniazid. Reduction of drug binding to RNA polymerase, plasmid-mediated resistance, and increased efflux from the cell are mechanisms of resistance to other antibiotics."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Isoniazid requires activation by the bacterial enzyme KatG. Mutations in the katG gene can lead to resistance to isoniazid. The other options are not relevant to the mechanism of resistance to isoniazid."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Isoniazid is a frontline antibiotic for tuberculosis treatment and works by inhibiting the enzyme InhA, which is essential for the synthesis of mycolic acid in the bacterial cell wall. katG is a gene that codes for an enzyme that activates isoniazid and mutations in katG are a common mechanism of resistance to the drug. The other options refer to mechanisms of resistance for other antibiotics, but not for isoniazid."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Isoniazid requires activation by the bacterial enzyme catalase-peroxidase that is encoded by the katG gene. Mutations in the katG gene are a common mechanism of resistance to isoniazid. The other options do not apply to isoniazid resistance."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The most common mechanism of resistance to isoniazid is mutations in the katG gene, which codes for a bacterial enzyme that helps activate the drug. This leads to a decrease in the drug's efficacy. The other options are not commonly associated with isoniazid resistance."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Isoniazid works by inhibiting the enzyme catalase-peroxidase which is encoded by the katG gene. Mutations in katG can lead to resistance to isoniazid. The other options are mechanisms of resistance for other antibiotics but not for isoniazid."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Isoniazid requires activation by the enzyme catalase-peroxidase, which is encoded by the katG gene. Resistance to isoniazid is commonly mediated by mutations in the katG gene, leading to decreased activation of the drug. The other options are not mechanisms of resistance to isoniazid."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Isoniazid is a first-line drug for tuberculosis and works by inhibiting mycolic acid synthesis. Resistance to isoniazid is often due to mutations in the katG gene, which codes for the enzyme catalase-peroxidase needed to activate isoniazid. The other options listed do not involve mutations in the katG gene."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Isoniazid is a first-line drug for the treatment of tuberculosis, and resistance to isoniazid is commonly caused by mutations in the katG gene. Mutations in this gene lead to the loss of catalase-peroxidase activity, which is required to activate isoniazid to its active form. The other options are not mechanisms of resistance to isoniazid."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

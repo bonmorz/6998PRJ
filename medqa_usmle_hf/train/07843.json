@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zp9LCxJ6fa6pnKSLLMyNygWxZFML",
+    "object": "chat.completion",
+    "created": 1680192647,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1376,
+        "completion_tokens": 902,
+        "total_tokens": 2278
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. An INR of 13.5 indicates a significantly increased risk of bleeding. Phytonadione (Vitamin K) is indicated to reverse the anticoagulant effect of warfarin. Fresh frozen plasma, recombinant factor VIIa, and protamine sulfate are not indicated in this situation."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. An INR of 13.5 indicates a very high risk of bleeding. Phytonadione, also known as vitamin K, can reverse the effects of warfarin and prevent bleeding. Fresh frozen plasma and recombinant factor VIIa are also used to treat bleeding episodes, but they are not necessary in this case as the patient is not currently bleeding. Protamine sulfate is used to reverse the effects of heparin, not warfarin."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. An INR of 13.5 suggests this patient is at high risk for bleeding due to excessive anticoagulation from warfarin. Phytonadione, also known as vitamin K, is necessary to reverse the effects of warfarin and lower the INR. Fresh frozen plasma, recombinant factor VIIa, and protamine sulfate are not indicated for warfarin reversal."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. An INR of 13.5 indicates an elevated risk of bleeding. Phytonadione, also known as vitamin K, can reverse warfarin-induced anticoagulation and should be given to the patient. Fresh frozen plasma and recombinant factor VIIa are alternatives used in case of severe bleeding, while Protamine sulfate is used to reverse heparin-induced anticoagulation."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Warfarin is a blood-thinning medication commonly used to prevent thromboembolic events. An INR of 13.5 suggests the patient\u2019s blood is too thin, which can increase their risk of bleeding complications. Phytonadione (vitamin K) is used to reverse the anticoagulant effects of warfarin and restore normal blood clotting function. The other options would not be appropriate in this situation."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has an elevated INR due to doubling his dose of warfarin. This is an indication of possible bleeding, so warfarin should be temporarily held and phytonadione (vitamin K) is indicated to reverse the anticoagulant effects of warfarin. Fresh frozen plasma and recombinant factor VIIa are used for bleeding emergencies, while protamine sulfate is used to reverse heparin, not warfarin."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. An INR of 13.5 indicates an increased risk of bleeding, so warfarin should be temporarily held. Phytonadione, also known as vitamin K, is the antidote to warfarin and can help to reverse the effects of the drug. Fresh frozen plasma, recombinant factor VIIa, and protamine sulfate are not indicated in this scenario."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. INR measures the effectiveness of anticoagulants, and an INR of 13.5 indicates excessive anticoagulation. Phytonadione (vitamin K) is indicated for warfarin reversal in patients without bleeding. Fresh frozen plasma and recombinant factor VIIa are indicated for patients with bleeding. Protamine sulfate is indicated for heparin reversal."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. An INR of 13.5 indicates a high risk of bleeding, and warfarin overdose. Phytonadione, which is a form of Vitamin K, is indicated for warfarin overdose and can help stop bleeding. Fresh frozen plasma, recombinant factor VIIa, and protamine sulfate are not used to treat warfarin overdose."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a high INR value indicating increased bleeding risk due to warfarin overdose. Phytonadione, also known as vitamin K, is used to reverse the effects of warfarin and lower the INR value. Fresh frozen plasma, Recombinant factor VIIa, and Protamine sulfate are used for other bleeding disorders such as vitamin K deficiency, hemophilia, or heparin overdose, respectively."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

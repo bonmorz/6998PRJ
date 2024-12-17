@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zljp0nw86tB4NWN8vzh4grvKWKbR",
+    "object": "chat.completion",
+    "created": 1680179533,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1326,
+        "completion_tokens": 758,
+        "total_tokens": 2084
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. CD8 surface protein is typically found on mature cytotoxic T lymphocytes, which are responsible for killing virus-infected cells and tumor cells. Activated regulatory T lymphocytes would express CD4 and CD25, while mature helper T lymphocytes would express CD4. Inactive B lymphocytes would not express CD8."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. CD8 surface protein is typically found on cytotoxic T cells, which are responsible for killing infected cells. Therefore, the sample is most likely representing mature cytotoxic T lymphocytes. Activated regulatory T cells typically express CD4, while mature helper T cells express both CD4 and CD8. Inactive B cells do not express CD8."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. CD8 surface protein is characteristic of cytotoxic T lymphocytes, which are involved in cell-mediated immunity and target infected or abnormal cells for destruction. Regulatory T lymphocytes, B lymphocytes, and helper T lymphocytes do not express CD8."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. CD8 is a surface protein found on cytotoxic T lymphocytes. Therefore, the sample is most likely composed of mature cytotoxic T lymphocytes. Options (A) and (D) are incorrect as they do not express CD8 on their surface. Option (C) is unlikely as CD8 is not typically found on B lymphocytes."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. CD8 is a surface protein found on cytotoxic T lymphocytes, which are responsible for killing virus-infected or foreign cells. Therefore, the sample is most likely representing mature cytotoxic T lymphocytes. CD4 is the surface protein found on mature helper T lymphocytes, while regulatory T lymphocytes have surface markers such as CD25 and Foxp3. Inactive B lymphocytes do not express CD8."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. CD8 is a surface marker found on cytotoxic T lymphocytes, which are responsible for the killing of infected or abnormal cells. Therefore, the sample most likely contains mature cytotoxic T lymphocytes. The other options are not associated with the CD8 marker."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. CD8 is a surface protein found on cytotoxic T lymphocytes, so the sample is most likely composed of mature cytotoxic T lymphocytes. CD4 is a surface protein found on helper T lymphocytes. Inactive B lymphocytes and activated regulatory T lymphocytes would not typically express high levels of CD8."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. CD8 surface protein is commonly found on cytotoxic T lymphocytes, which are responsible for killing infected or abnormal cells. Therefore, the sample is most likely representative of mature cytotoxic T lymphocytes. Activated regulatory T lymphocytes would express CD4 and Foxp3 surface proteins, while mature helper T lymphocytes would express CD4 but not CD8. Inactive B lymphocytes would not express either CD8 or CD4."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. CD8 surface protein is primarily found on cytotoxic T lymphocytes (CTLs) responsible for the elimination of intracellular pathogens, such as viruses and intracellular bacteria. Therefore, mature cytotoxic T lymphocytes are most likely represented in this sample. Activated regulatory T lymphocytes and mature helper T lymphocytes usually express CD4 surface protein, while inactive B lymphocytes do not express CD8 surface protein."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. CD8 surface protein is primarily expressed on cytotoxic T lymphocytes, which are responsible for killing infected or abnormal cells. Therefore, the sample is most likely composed of mature cytotoxic T lymphocytes."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

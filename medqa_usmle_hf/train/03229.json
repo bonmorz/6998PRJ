@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zhM66ViHyKEQh6GR0keetiM2ZHLJ",
+    "object": "chat.completion",
+    "created": 1680162686,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1378,
+        "completion_tokens": 1155,
+        "total_tokens": 2533
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of coronary artery disease and is immobile due to dependence on oxygen, which puts him at risk for developing deep venous thrombosis. Low molecular weight heparin is the standard therapy for prophylaxis in hospitalized patients with high risk of deep venous thrombosis. Aspirin and clopidogrel do not provide adequate prophylaxis, and warfarin is not appropriate for acute prophylaxis."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. This patient has multiple risk factors for deep venous thrombosis and pulmonary embolism, including age, comorbidities, and limited ambulation. Low molecular weight heparin is the recommended prophylaxis for hospitalized patients at high risk for venous thromboembolism, as it has a lower risk of bleeding compared to warfarin. Clopidogrel and aspirin are antiplatelet agents and do not provide sufficient prophylaxis for deep venous thrombosis. Warfarin has a slower onset of action and is not recommended for initial prophylaxis in hospitalized patients."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has multiple comorbidities, is immobile due to oxygen dependence, and has a higher risk for deep venous thrombosis (DVT). Low molecular weight heparin is the preferred prophylaxis for DVT in this scenario, as it can be administered subcutaneously and has a lower risk of bleeding compared to unfractionated heparin. Aspirin and clopidogrel have antiplatelet properties and are not indicated for DVT prophylaxis. Warfarin is not preferred for acute DVT prophylaxis as it takes several days to reach therapeutic levels and requires monitoring."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has multiple risk factors for DVT, including coronary artery disease, immobilization, and tachypnea. Aspirin and clopidogrel are antiplatelet agents and are not sufficient for DVT prophylaxis. Warfarin requires monitoring of INR levels, which may be difficult in this acutely ill patient. Low molecular weight heparin is the preferred method for DVT prophylaxis in hospitalized patients."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is at risk for deep venous thrombosis due to his decreased mobility and history of coronary artery disease. Both aspirin and clopidogrel are antiplatelet agents and do not provide sufficient deep vein thrombosis prophylaxis. Warfarin requires monitoring of international normalized ratio (INR) and may interact with levofloxacin. Therefore, low molecular weight heparin is the most appropriate option for prophylaxis in this situation."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is at risk for deep venous thrombosis due to his immobilization and history of coronary artery disease. Low molecular weight heparin is the recommended prophylaxis for deep venous thrombosis in hospitalized patients. Aspirin and clopidogrel are antiplatelet agents and are not effective in preventing deep venous thrombosis. Warfarin is an anticoagulant, but its effects are difficult to monitor and it takes several days to reach therapeutic levels, so it is not ideal for immediate prophylaxis in a hospitalized patient."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has multiple comorbidities and is unable to move frequently, hence he is at high risk for developing deep venous thrombosis. Both aspirin and clopidogrel inhibit platelet aggregation and are not effective for DVT prophylaxis. Warfarin is an oral anticoagulant that requires frequent monitoring of INR levels and is not recommended for prophylaxis in hospitalized patients. Low molecular weight heparin is the preferred agent for DVT prophylaxis in this patient population."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of coronary artery disease and is immobile, which puts him at high risk for deep vein thrombosis. Low molecular weight heparin is the preferred method of prophylaxis in hospitalized patients with temporary or permanent immobilization. Aspirin and clopidogrel are antiplatelet agents and do not provide adequate DVT prophylaxis. Warfarin is often used for long-term prophylaxis but requires careful monitoring and is not the preferred method for short-term prophylaxis in this patient."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of coronary artery disease and is immobile due to oxygen dependence, which puts him at risk for deep venous thrombosis. Low molecular weight heparin is recommended for deep venous thrombosis prophylaxis in hospitalized patients with comorbidities. Aspirin and clopidogrel are antiplatelet medications and not recommended for deep venous thrombosis prophylaxis. Warfarin is an anticoagulant, but it requires frequent monitoring of the International Normalized Ratio and is not routinely used for prophylaxis."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of coronary artery disease and is immobile due to oxygen dependence, making him at high risk for deep venous thrombosis (DVT). Low molecular weight heparin is the recommended prophylaxis for DVT in hospitalized patients with high risk. Aspirin and clopidogrel are not sufficient for DVT prophylaxis. Warfarin may be used for DVT treatment, but not prophylaxis."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

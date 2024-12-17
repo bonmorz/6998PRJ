@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zoZKtwpYiMWpORsEX46AwRuyiSZ5",
+    "object": "chat.completion",
+    "created": 1680190414,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1537,
+        "completion_tokens": 931,
+        "total_tokens": 2468
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. For Patient 1, the family history of ovarian cancer and breast cancer in addition to her age warrants BRCA testing. For Patient 2, the mobile mass that increases in size and becomes tender around menstruation warrants a breast ultrasound."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Patient 1 has a significant family history of breast and ovarian cancer, which raises suspicion for a hereditary predisposition. Therefore, BRCA testing is the best next step in management to assess her risk. Patient 2 has a small, mobile, and well-defined mass on her breast that is likely a benign breast mass. However, given her concern and family history of breast cancer, a breast ultrasound is the best next step in management to assess the mass. Mammography is not indicated for a patient in her 20s with a benign breast mass, and CA-125 testing is not recommended for screening or diagnosis of breast cancer."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Patient 1 has significant family history of breast and ovarian cancer and may benefit from BRCA testing. Patient 2 has a mobile mass that increases in size and becomes tender around her time of menses, which is likely a benign breast mass, but should be evaluated with ultrasound to rule out any malignancy."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Patient 1 has a significant family history of breast and ovarian cancer, which puts her at increased risk for hereditary breast and ovarian cancer syndrome (HBOC). BRCA testing is recommended for patients with a history suggestive of HBOC. Patient 2 has a well-defined and mobile mass on her breast, which is likely a benign fibroadenoma. Breast ultrasound is the appropriate next step to further evaluate the mass."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. For Patient 1, the family history of ovarian and breast cancer suggests the need for BRCA testing. For Patient 2, the mobile mass that increases in size and becomes tender around menses suggests the need for a breast ultrasound to evaluate for a fibroadenoma, which is a common benign breast mass."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Patient 1 has a significant family history of breast and ovarian cancer, which puts her at high risk for hereditary breast and ovarian cancer syndrome. Therefore, the best next step in management is to perform BRCA testing. Patient 2 has a small and mobile mass that increases in size and becomes tender around her time of menses, which suggests a benign lesion such as a fibroadenoma. Therefore, the best next step in management is to perform a breast ultrasound to confirm the diagnosis."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Patient 1 has a significant family history of breast and ovarian cancer which increases her risk of developing these cancers. BRCA testing would be appropriate to determine if she is at higher risk and may consider risk-reducing interventions like prophylactic oophorectomy. Patient 2 has a mobile mass that increases in size during menses, which is likely a fibroadenoma, but ultrasound should be done to confirm and rule out any other pathology. Mammography is not indicated in a young patient with a palpable mass. CA-125 testing is used to monitor ovarian cancer and is not indicated for screening purposes."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. In patient 1, the family history of ovarian and breast cancer is significant and warrants BRCA testing. In patient 2, the mass is likely a fibroadenoma, which is common in young women and does not require mammography. Instead, a breast ultrasound is the appropriate next step to evaluate the mass."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Patient 1 has a significant family history of breast and ovarian cancer, making BRCA testing the best next step in management. Patient 2 has a mobile, well-defined mass that increases in size and becomes tender around her menses, making a breast ultrasound the best next step in management."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Patient 1 has a significant family history of breast and ovarian cancer, which increases the risk of having a BRCA mutation. As such, she should undergo BRCA testing. Patient 2 has a small, well-defined, and mobile mass on her breast that is likely benign, but the history and concern for breast cancer make it appropriate to perform a breast ultrasound. Therefore, the best next step in management for patient 1 is BRCA testing and for patient 2 is a breast ultrasound."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

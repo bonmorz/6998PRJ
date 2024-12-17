@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zsKu2FSOlJFHPv2BInnCYOnrR5HJ",
+    "object": "chat.completion",
+    "created": 1680204896,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1434,
+        "completion_tokens": 1328,
+        "total_tokens": 2762
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The presentation suggests a genetic disorder, likely X-linked recessive since the patient's brothers are affected and not her father (who would have a 50% chance of being affected with an autosomal dominant inheritance pattern). The fact that the patient's husband's family has no history of this disease is not relevant, as the inheritance pattern is X-linked. Therefore, the chances that the patient's children (regardless of gender) will be affected are 50% for each child."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to the Wikipedia article on medical genetics for help. The patient has bilateral loss of central vision and degeneration of the retinal ganglion cells, which suggests a genetic disorder called Leber congenital amaurosis (LCA). LCA is inherited in an autosomal recessive manner, which means that both parents must have a copy of the mutated gene for a child to be affected. The chances of having an affected child when both parents are carriers of an autosomal recessive gene is 25%. Since the patient's husband has no family history of the disease, it is assumed that he is not a carrier. Therefore, the chances of the patient's daughter and son being affected are 0% and 50%, respectively. However, if the patient's husband is found to be a carrier after genetic testing, the chances of the daughter and son being affected would be 25% and 50%, respectively. Ignoring the effects of incomplete penetrance is appropriate in this question as it is explicitly stated in the prompt."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The description of the patient\u2019s symptoms suggests a diagnosis of retinitis pigmentosa, an inherited disorder that can cause degeneration of retinal cells. Since both of her brothers have the disease, it is likely that they inherited it from their parents. Assuming that both of the patient\u2019s parents are carriers of the gene mutation that causes retinitis pigmentosa, there is a 25% chance that any given child of theirs will inherit two copies of the mutation and therefore be affected by the disease. Since the patient\u2019s husband\u2019s family has no history of the disease, we can assume that he does not carry the mutation. Therefore, if the patient\u2019s children inherit one copy of the mutation from her, they will be carriers but not affected by the disease. If they inherit two copies of the mutation, they will be affected by the disease. Therefore, both the daughter and the son have a 50% chance of inheriting two copies of the mutation, and therefore a 100% chance of being affected by the disease if they do inherit it."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The presentation and retinal degeneration suggest that the patient has retinitis pigmentosa, which is a genetic disorder. Since the patient has two affected brothers, it is likely an autosomal recessive inheritance pattern. Ignoring incomplete penetrance, if the patient is heterozygous for the mutation and her husband is a carrier or normal, then the chances of each child being affected are 50%. Therefore, the correct answer is (D), with both daughter and son having a 100% chance of inheriting at least one copy of the mutant allele from the carrier parent."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to medical genetics articles for help. The presence of two affected brothers and bilateral retinal ganglion cell degeneration suggests that the patient has X-linked recessive inheritance, specifically Leber's hereditary optic neuropathy (LHON). Since the patient is female, she is a carrier of the LHON mutation, meaning she has one normal X chromosome and one mutated X chromosome. If she has a son, there is a 50% chance that he will inherit the mutated X chromosome and be affected, and if she has a daughter, there is a 50% chance that she will be a carrier like her mother. However, if the son inherits the mutated X chromosome, he will be affected with the disease since there is no corresponding normal X chromosome to compensate for the mutation. Therefore, the answer is (D) Daughter: 100% and son: 100%."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to a Genetics article on Retinitis Pigmentosa for help. The presentation and pathological examination suggest that the patient has Retinitis Pigmentosa, which is an autosomal recessive disorder. This means that for the patient to have the disorder, she had to inherit one copy of the affected gene from each parent. Since both of her older brothers have had visual loss with a similar presentation, it is likely that both of her parents were carriers of the affected gene. Therefore, the chances that her children will be affected by this disease are 100% for both a son and a daughter if her partner is also a carrier of the affected gene."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The presentation and family history suggest a diagnosis of Leber's hereditary optic neuropathy, an inherited disorder. It is caused by mutations in mitochondrial DNA, which only come from the mother. Therefore, both the daughter and son have a 100% chance of inheriting the mutation if their mother has it."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to the National Institutes of Health Genetics Home Reference for help. Based on the description, the patient likely has a genetic disorder called Leber hereditary optic neuropathy (LHON), which is inherited in a mitochondrial pattern. Mitochondrial DNA is passed down from the mother to her offspring. Therefore, all of the offspring of an affected female will inherit the mutation and be affected. The chances are 100% for both daughter and son to be affected."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The presentation is consistent with a genetic disorder called Leber\u2019s hereditary optic neuropathy (LHON), which is maternally inherited. The chance of transmitting the disease to the offspring is 100% for both son and daughter, as all offspring inherit their mitochondrial DNA from their mother."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The presentation and family history suggest the patient has a genetic disorder called Leber's hereditary optic neuropathy (LHON). LHON is inherited maternally, and the chance of transmission is 50% for both a son and a daughter. Therefore, the correct answer is (D) Daughter: 100% and son: 100%. However, it should be noted that the effects of incomplete penetrance mean that not all individuals who inherit the LHON mutation will develop symptoms, and the severity of symptoms can vary among affected individuals."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

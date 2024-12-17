@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zpLfmsh68zKqe1r7tHYOcgRJ2NXy",
+    "object": "chat.completion",
+    "created": 1680193411,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1410,
+        "completion_tokens": 1111,
+        "total_tokens": 2521
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's blood type is B-negative and she is a primigravida, so Rh-D immunoglobulin is not needed. Measles-mumps-rubella vaccination is not recommended during pregnancy. PCV23 vaccination is not indicated for this patient. Influenza vaccination is recommended for all pregnant women, especially those who will be traveling during flu season."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is at 12 weeks gestation and non-reactive for mumps and rubella titers. Influenza vaccination is recommended for pregnant women during any trimester. Measles-mumps-rubella vaccination is contraindicated during pregnancy. PCV23 vaccination is not routinely recommended during pregnancy. Rh-D immunoglobulin is given to Rh-negative women at 28 weeks and within 72 hours of delivery if the baby is Rh-positive."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s blood type is B-negative, which means that Rh-D immunoglobulin will be needed later in pregnancy. Measles-mumps-rubella vaccination is not necessary as the patient already has non-reactive titers. PCV23 vaccination is not needed as it is mainly used for elderly and immunocompromised patients. Influenza vaccination is recommended because the patient is pregnant and planned to travel to Canada. Pregnant women are at higher risk of complications from influenza, and vaccination can help protect both the mother and the fetus."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Among the options, the most appropriate recommendation at this visit is Influenza vaccination. Measles-mumps-rubella vaccination is not necessary as the patient's titers are non-reactive. PCV23 is normally recommended for adults over 65 years old, and Rh-D immunoglobulin is only necessary if there is a risk of Rh incompatibility between mother and fetus."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is at 12 weeks gestation and is B-negative, so Rh-D immunoglobulin is not needed yet. Measles-mumps-rubella vaccination is contraindicated in pregnancy. PCV23 vaccination is not indicated unless the patient has certain high-risk conditions. Influenza vaccination is recommended during pregnancy and should be offered at the first prenatal visit in the season, so it would be the most appropriate recommendation at this visit."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's blood type is B-negative, so she should receive Rh-D immunoglobulin during pregnancy to prevent hemolytic disease of the newborn. However, this is not the most appropriate recommendation at this visit. Measles-mumps-rubella vaccination is contraindicated during pregnancy, and PCV23 vaccination is not routinely recommended in pregnancy. Influenza vaccination is safe and recommended during pregnancy to reduce the risk of influenza and its complications, so this is the most appropriate recommendation at this visit."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Since the patient is B-negative, there is a risk of hemolytic disease of the newborn if the fetus is Rh-positive. Therefore, the most appropriate recommendation at this visit would be Rh-D immunoglobulin. However, this option is not given in the answer choices. Among the given options, influenza vaccination is the most appropriate recommendation for a pregnant patient, especially since she will be traveling soon. Measles-mumps-rubella vaccination is contraindicated during pregnancy. PCV23 vaccination is not routinely recommended during pregnancy."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s blood type is B-negative, which means that she may need Rh-D immunoglobulin to prevent erythroblastosis fetalis if the father is Rh-positive. However, this option is not the most appropriate recommendation at this visit. Measles-mumps-rubella vaccination may be recommended if the patient has low or non-existent titers, but the titers mentioned in the question are non-reactive. PCV23 vaccination is recommended for older adults and those with chronic diseases, so it is not the most appropriate recommendation for this patient. Influenza vaccination is recommended for all pregnant women during influenza season, so it is the most appropriate recommendation at this visit."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is in her first trimester of pregnancy and, given the upcoming travel to Canada, should be advised to receive the influenza vaccination. The other options are not indicated at this time. Measles-mumps-rubella vaccination is contraindicated during pregnancy, PCV23 vaccination is recommended for certain groups of adults but not indicated in this patient, and Rh-D immunoglobulin is indicated later in pregnancy if the baby is Rh-positive."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is at 12 weeks of gestation and her blood type is B-negative, indicating that she might need Rh-D immunoglobulin to avoid hemolytic disease of the newborn. However, this is not the most appropriate recommendation at this visit. Measles-mumps-rubella vaccination is contraindicated in pregnancy. PCV23 vaccination is recommended only for high-risk individuals. Influenza vaccination is recommended for pregnant women during any trimester of pregnancy to protect both the mother and the baby. Therefore, (A) is the most appropriate recommendation at this visit."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

@@ -1,0 +1,36 @@
++ gpus=0
++ batchsize=32
++ modelsize=base
++ dataset=obqa
++ shuf -i 29400-29700 -n 1
++ port=29572
++ deepspeed --include=localhost:0 --master_port 29572 trainers/run_seq2seq_deepspeed.py --model_id google/flan-t5-base --dataset_path preprocessed_data/obqa-cot-wikipedia --epochs 3 --per_device_train_batch_size 32 --per_device_eval_batch_size 32 --lr 1e-4 --deepspeed configs/ds_flan_t5_z3_config.json --output_dir ./save/flan-t5-base/obqa/kard_wikipedia
+[2024-12-10 21:15:37,114] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-10 21:15:40,687] [WARNING] [runner.py:215:fetch_hostfile] Unable to find hostfile, will proceed with training with local resources only.
+[2024-12-10 21:15:40,687] [INFO] [runner.py:607:main] cmd = /opt/conda/bin/python3.10 -u -m deepspeed.launcher.launch --world_info=eyJsb2NhbGhvc3QiOiBbMF19 --master_addr=127.0.0.1 --master_port=29572 --enable_each_rank_log=None trainers/run_seq2seq_deepspeed.py --model_id google/flan-t5-base --dataset_path preprocessed_data/obqa-cot-wikipedia --epochs 3 --per_device_train_batch_size 32 --per_device_eval_batch_size 32 --lr 1e-4 --deepspeed configs/ds_flan_t5_z3_config.json --output_dir ./save/flan-t5-base/obqa/kard_wikipedia
+[2024-12-10 21:15:42,467] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-10 21:15:45,924] [INFO] [launch.py:146:main] WORLD INFO DICT: {'localhost': [0]}
+[2024-12-10 21:15:45,925] [INFO] [launch.py:152:main] nnodes=1, num_local_procs=1, node_rank=0
+[2024-12-10 21:15:45,925] [INFO] [launch.py:163:main] global_rank_mapping=defaultdict(<class 'list'>, {'localhost': [0]})
+[2024-12-10 21:15:45,925] [INFO] [launch.py:164:main] dist_world_size=1
+[2024-12-10 21:15:45,925] [INFO] [launch.py:168:main] Setting CUDA_VISIBLE_DEVICES=0
+[2024-12-10 21:15:45,925] [INFO] [launch.py:256:main] process 310490 spawned with command: ['/opt/conda/bin/python3.10', '-u', 'trainers/run_seq2seq_deepspeed.py', '--local_rank=0', '--model_id', 'google/flan-t5-base', '--dataset_path', 'preprocessed_data/obqa-cot-wikipedia', '--epochs', '3', '--per_device_train_batch_size', '32', '--per_device_eval_batch_size', '32', '--lr', '1e-4', '--deepspeed', 'configs/ds_flan_t5_z3_config.json', '--output_dir', './save/flan-t5-base/obqa/kard_wikipedia']
+/opt/conda/lib/python3.10/site-packages/transformers/training_args.py:1575: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+[2024-12-10 21:15:52,400] [INFO] [real_accelerator.py:219:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-12-10 21:15:53,590] [INFO] [comm.py:652:init_distributed] cdb=None
+[2024-12-10 21:15:53,590] [INFO] [comm.py:683:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2024-12-10 21:15:54,311] [INFO] [launch.py:319:sigkill_handler] Killing subprocess 310490
+[2024-12-10 21:15:54,367] [INFO] [launch.py:328:sigkill_handler] Main process received SIGINT, exiting
+Traceback (most recent call last):
+  File "/opt/conda/bin/deepspeed", line 6, in <module>
+    main()
+  File "/opt/conda/lib/python3.10/site-packages/deepspeed/launcher/runner.py", line 623, in main
+    result.wait()
+  File "/opt/conda/lib/python3.10/subprocess.py", line 1209, in wait
+    return self._wait(timeout=timeout)
+  File "/opt/conda/lib/python3.10/subprocess.py", line 1959, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/opt/conda/lib/python3.10/subprocess.py", line 1917, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt

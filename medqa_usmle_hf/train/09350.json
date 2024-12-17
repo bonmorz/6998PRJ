@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zrZSfBOW3qMQPSsiPo8KRS4yOZ1r",
+    "object": "chat.completion",
+    "created": 1680201954,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1360,
+        "completion_tokens": 781,
+        "total_tokens": 2141
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows a wide QRS complex, suggesting sodium channel blockade. Amitriptyline is a tricyclic antidepressant that can cause this side effect. Lithium and quetiapine do not typically cause sodium channel blockade, and paroxetine is a selective serotonin reuptake inhibitor that has not been associated with this cardiac abnormality. Sodium bicarbonate is given to treat the acidosis that can occur with amitriptyline toxicity."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows a wide QRS complex with a prolonged QT interval, which suggests tricyclic antidepressants toxicity. Amitriptyline is a tricyclic antidepressant and is the likely cause of the patient\u2019s cardiac abnormality. Sodium bicarbonate can be used to treat the cardiac toxicity of tricyclic antidepressants by increasing the serum pH and sodium concentration, which reduces the binding of the drug to cardiac sodium channels."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows a widened QRS complex and peaked T waves, which suggests a sodium channel blocker toxicity. Among the options, only Amitriptyline is a tricyclic antidepressant and a sodium channel blocker. Sodium bicarbonate is used to treat sodium channel blocker toxicity. Therefore, the likely cause of the patient's cardiac abnormality is Amitriptyline."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows a wide QRS complex, which suggests sodium channel blockade. Amitriptyline is a tricyclic antidepressant that blocks sodium channels and is known to cause cardiac toxicity. Lithium toxicity can cause a variety of ECG abnormalities, including T-wave flattening, while Paroxetine and Quetiapine do not typically cause cardiac toxicity. Sodium bicarbonate is given to treat the metabolic acidosis caused by the overdose of Amitriptyline."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows widened QRS complexes and peaked T waves, which suggest a sodium channel blocker toxicity. Among the options, only Amitriptyline is a tricyclic antidepressant that can cause sodium channel blockade. Sodium bicarbonate is used to treat tricyclic antidepressant overdose."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows QRS widening and the medication associated with this effect is tricyclic antidepressants, such as Amitriptyline. The treatment for this is sodium bicarbonate."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows a widened QRS complex and a prolonged QTc interval, which suggests sodium channel blockade. Among the options, only Amitriptyline is a tricyclic antidepressant that can cause sodium channel blockade. Sodium bicarbonate can be used to help counteract the effects of Amitriptyline toxicity."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows a prolonged QT interval, which can be caused by medication-induced Torsades de Pointes. Among the options, only Amitriptyline is known to have this side effect. Sodium bicarbonate is used to treat Torsades de Pointes."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows widened QRS complex and prolonged QT interval, which are characteristic changes of tricyclic antidepressant (TCA) overdose. Among the options, only Amitriptyline is a TCA. Sodium bicarbonate is given to correct acidosis caused by TCA overdose."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows widened QRS complexes and a prolonged QT interval, which are consistent with tricyclic antidepressant overdose. Amitriptyline is a tricyclic antidepressant and can cause these cardiac abnormalities. Sodium bicarbonate can help treat these cardiac effects."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

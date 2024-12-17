@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zdrqJalNwnx5Sy6e8mYrqElv89zl",
+    "object": "chat.completion",
+    "created": 1680149278,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1358,
+        "completion_tokens": 926,
+        "total_tokens": 2284
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The EKG shows a prolonged QT interval, which can potentially lead to life-threatening dysrhythmias such as torsades de pointes. Calcium gluconate can be given to stabilize the myocardium and prevent dysrhythmias. Intubation, albuterol, and insulin are not appropriate interventions for this patient."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The EKG shows a prolonged QT interval, which can be caused by medications such as those used to treat bipolar disease, or electrolyte imbalances like hypocalcemia. Calcium gluconate can help correct the hypocalcemia and potentially prevent arrhythmias. The other options are not indicated based on the information given."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The EKG shows QRS widening and peaked T waves, indicating hyperkalemia, which can lead to fatal arrhythmias. Calcium gluconate should be given to stabilize the myocardium before correcting the hyperkalemia. Intubation, albuterol, and insulin are not the immediate next steps in this scenario."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The EKG in figure 1 shows a long QT interval, which can lead to potentially fatal arrhythmias. Treatment for long QT syndrome may include beta-blockers, but in an acute setting, calcium gluconate is the preferred initial treatment. It stabilizes cardiomyocyte membranes and reduces the effects of potassium on the myocardium. Intubation may be necessary if the patient's mental status deteriorates, but it is not the next best step in the treatment of his long QT syndrome. Albuterol and insulin are not indicated for this patient's presentation."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The EKG shows a prolonged QT interval, which can lead to torsades de pointes and ventricular fibrillation. Calcium gluconate can help stabilize the myocardium and prevent arrhythmias. Intubation is not necessary since the patient is breathing on his own. Albuterol and insulin are not indicated in this scenario."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The EKG shows a widened QRS complex, which suggests a possible overdose of a sodium channel blocker. Calcium gluconate is used to counteract the effects of sodium channel blockers and should be administered as soon as possible. Intubation, albuterol, and insulin are not appropriate treatments for this scenario."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The EKG shows a wide QRS complex and peaked T waves, which are characteristic of hyperkalemia. Calcium gluconate is the first-line therapy for hyperkalemia to stabilize the cardiac membrane. Intubation, albuterol, and insulin do not address the underlying hyperkalemia."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to a resource on EKG interpretation for help. The EKG shows a wide QRS complex with peaked T waves, which suggests hyperkalemia. The next best step in treatment is to administer calcium gluconate to stabilize the myocardium before attempting to lower the potassium levels. Intubation, albuterol, and insulin are not indicated as the patient is breathing on his own and there is no evidence of asthma or hyperglycemia."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to the American Heart Association's guidelines for help. The EKG shows a prolonged QT interval and wide QRS complexes, which suggest the possibility of Torsades de Pointes, a type of ventricular tachycardia. Treatment should include correcting any electrolyte imbalance and administering IV magnesium and/or IV calcium gluconate. Among the options, calcium gluconate is the most appropriate choice as it directly improves myocardial contraction and can reverse the effects of calcium channel blocker toxicity, which could be a possibility given the patient's history of substance abuse. Intubation is not necessary as the patient is breathing on his own. Albuterol and insulin are not indicated in this case."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The EKG shows a widened QRS and the patient has a history of substance abuse, which suggests a potential overdose of a sodium channel blocker such as tricyclic antidepressants. Treatment includes giving intravenous sodium bicarbonate and calcium gluconate. Among the options, calcium gluconate is the best choice. Intubation is not necessary in this case as the patient is breathing on his own. Albuterol and insulin are not effective treatments for a sodium channel blocker overdose."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

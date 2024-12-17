@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zpn8erN16S2fmpcQd7CoGxjo1bkl",
+    "object": "chat.completion",
+    "created": 1680195114,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1344,
+        "completion_tokens": 898,
+        "total_tokens": 2242
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. A CD4+ T lymphocyte count of 180/mm3 indicates a severe compromise of the immune system. As a result, live attenuated vaccines should be avoided due to the risk of causing the disease they are intended to protect against. Varicella zoster virus vaccine is a live attenuated vaccine, and so it should not be administered to this patient. The other options listed are not live attenuated vaccines."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s reduced CD4+ T lymphocyte cell count indicates that her immune system is compromised. Therefore, live vaccines should be avoided. Varicella zoster virus is a live vaccine, so it should be avoided in this patient. The other options are not live vaccines and can be given to the patient."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is immunocompromised due to HIV infection and has a low CD4+ T cell count, indicating a higher risk of complications from vaccines. The varicella zoster virus vaccine should be avoided due to the risk of disseminated disease in immunocompromised patients. The other options are safe to administer, with special considerations for timing and dosages."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The CD4+ T lymphocyte cell count of 180/mm3 indicates severe immunocompromise, which increases the risk of vaccine-related infections. The vaccine against Varicella zoster virus should be avoided because it is a live attenuated vaccine and can cause the patient to develop chickenpox or shingles. The other options (Bordetella pertussis, Haemophilus influenzae, Clostridium tetani) are inactivated vaccines and are safe for immunocompromised patients."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has HIV infection and a low CD4+ T lymphocyte cell count, which puts her at risk for opportunistic infections. However, only the Varicella zoster virus vaccine is contraindicated in patients with HIV infection due to the risk of causing disseminated disease. The other vaccines (Bordetella pertussis, Haemophilus influenzae, and Clostridium tetani) are recommended for patients with HIV."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient with a CD4+ T lymphocyte cell count of 180/mm3 has advanced HIV infection and is at risk for opportunistic infections. Administration of vaccines containing live attenuated viruses, such as varicella zoster virus, should be avoided in patients with advanced HIV infection because of the risk of disseminated disease. The other three options are not live attenuated vaccines and are safe to administer to immunocompromised individuals."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has HIV infection and a low CD4+ T lymphocyte cell count, which puts her at risk for opportunistic infections. Varicella zoster virus vaccine contains live attenuated virus and is contraindicated in patients with HIV and low CD4+ T lymphocyte cell count. The other options do not contain live virus and are generally safe for patients with HIV."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The low CD4+ T lymphocyte cell count suggests advanced HIV infection and the patient is at risk of developing opportunistic infections. Vaccination against Varicella zoster virus should be avoided because the vaccine is live attenuated and can cause serious infection in immunocompromised patients. The other options are safer and can be administered."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has HIV infection with a low CD4+ T lymphocyte cell count, which puts her at risk for opportunistic infections. The varicella zoster vaccine should be avoided as it is a live attenuated vaccine and can cause a severe infection in immunocompromised individuals. The other options are inactivated vaccines and can be administered to this patient."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. HIV infection with a CD4+ count of 180/mm3 indicates that the patient has moderate immunosuppression. Varicella zoster virus vaccine, which contains a live attenuated virus, should be avoided in patients with moderate to severe immunosuppression due to risk of disseminated infection. The other options are not affected by immunosuppression and can be administered."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

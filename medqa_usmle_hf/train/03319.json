@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zhVhGQxRZl9kpwTK8p9It1JXBV2B",
+    "object": "chat.completion",
+    "created": 1680163281,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1273,
+        "completion_tokens": 620,
+        "total_tokens": 1893
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Selective Ig deficiency with normal IgE levels is a characteristic of X-linked hyper-IgM syndrome. In this condition, there is low or absent production of IgM and IgA, while IgG levels are typically elevated. Therefore, excess IgM is likely to be present in this patient."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The lack of CD40 ligand indicates a diagnosis of X-linked hyper-IgM syndrome, which is characterized by an excess of IgM due to the inability of B-cells to undergo class switching to produce other immunoglobulins."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. A lack of CD40 ligand causes X-linked hyper IgM syndrome, where there is a deficiency in class-switched antibodies (IgG, IgA, and IgE) and an excess of IgM. Therefore, the correct answer is (C) IgM."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The CD40 ligand is necessary for the activation of B cells and class-switching of IgM to other types of immunoglobulins. Therefore, the absence of CD40 ligand will lead to an excess of IgM."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The lack of CD40 ligand leads to a deficiency of class switching of immunoglobulins, and the excess immunoglobulin present is likely to be IgM."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Google Scholar for help. CD40 ligand is essential for T-cell interactions with B-cells, so the absence of CD40 ligand leads to a failure in B-cell maturation and immunoglobulin class switching. This results in excess production of IgM, which is the default immunoglobulin produced in the absence of class switching signals. Therefore, the correct answer is (C) IgM."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The lack of CD40 ligand suggests a diagnosis of X-linked hyper-IgM syndrome, which is associated with excess production of IgM immunoglobulin. None of the other options are associated with this syndrome."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The lack of CD40 ligand suggests X-linked Hyper-IgM syndrome. In this syndrome, the patient lacks IgA and IgG, but there is an excess of IgM due to a lack of isotype switching. Therefore, the answer is (C), IgM."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. CD40 ligand is essential in the activation of B-cells and production of immunoglobulins. In its absence, there will be decreased IgG production and an excess of IgM production. Therefore, the correct answer is IgM."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The lack of CD40 ligand suggests X-linked hyper-IgM syndrome, which is characterized by high levels of IgM and low levels of IgG and IgA. Therefore, the excess immunoglobulin in this case is likely to be IgM."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

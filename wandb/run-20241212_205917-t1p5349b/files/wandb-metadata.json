@@ -1,0 +1,88 @@
+{
+    "os": "Linux-5.10.0-33-cloud-amd64-x86_64-with-glibc2.31",
+    "python": "3.10.15",
+    "heartbeatAt": "2024-12-12T20:59:17.638024",
+    "startedAt": "2024-12-12T20:59:17.206566",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--local_rank=0",
+        "--model_id",
+        "google/flan-t5-base",
+        "--dataset_path",
+        "preprocessed_data/strategyqa-cot-wikipedia",
+        "--epochs",
+        "3",
+        "--per_device_train_batch_size",
+        "32",
+        "--per_device_eval_batch_size",
+        "32",
+        "--lr",
+        "1e-4",
+        "--deepspeed",
+        "configs/ds_flan_t5_z3_config.json",
+        "--output_dir",
+        "./save/flan-t5-base/strategyqa/kard_wikipedia",
+        "--train_samples",
+        "1000"
+    ],
+    "state": "running",
+    "program": "/home/rl/KARD/trainers/run_seq2seq_deepspeed.py",
+    "codePathLocal": "trainers/run_seq2seq_deepspeed.py",
+    "codePath": "trainers/run_seq2seq_deepspeed.py",
+    "git": {
+        "remote": "https://github.com/Nardien/KARD.git",
+        "commit": "b2e4ac0b242eddfec10a926b782fd36a2409befa"
+    },
+    "email": null,
+    "root": "/home/rl/KARD",
+    "host": "instance-20241209-192300",
+    "username": "rl",
+    "executable": "/opt/conda/bin/python3.10",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2200.136,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2200.136,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.136,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.136,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.136,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 491.8999481201172,
+            "used": 86.79185104370117
+        }
+    },
+    "gpu": "NVIDIA L4",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA L4",
+            "memory_total": 24152899584
+        }
+    ],
+    "memory": {
+        "total": 15.633014678955078
+    }
+}

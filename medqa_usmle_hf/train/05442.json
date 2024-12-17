@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zl3Al0PKzQLlKJgz7LOQQAw0Th5h",
+    "object": "chat.completion",
+    "created": 1680176888,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1503,
+        "completion_tokens": 969,
+        "total_tokens": 2472
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is pregnant, has a history of heparin-induced thrombocytopenia, and has multiple comorbidities. An IVC filter placement can help prevent pulmonary embolism in high-risk situations, such as pregnancy and heparin-induced thrombocytopenia. Long term heparin, dabigatran, and apixaban are not recommended for this patient due to their potential effects on the fetus or lack of safety in patients with heparin-induced thrombocytopenia."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is pregnant and has a history of heparin-induced thrombocytopenia, so initiating long term heparin is not appropriate. Dabigatran and apixaban are contraindicated in pregnancy. The most appropriate management in this case would be to consult interventional radiology for inferior vena cava (IVC) filter placement, which can prevent pulmonary embolism from reaching the lungs."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is pregnant and has a history of heparin-induced thrombocytopenia, so initiating long term heparin is not an option. Dabigatran and apixaban are contraindicated during pregnancy. IVC filter placement is the best option for post-acute care in this case."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is pregnant and has a history of heparin-induced thrombocytopenia, which makes the options of long-term heparin or dabigatran and apixaban unsuitable. Consultation with IR for IVC filter placement is the most appropriate choice for managing her post-acute care."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Given the patient's significant medical history and pregnancy, the risks associated with long term heparin or dabigatran and apixaban are too high. Consultation with interventional radiology for inferior vena cava filter placement may provide a safer option for the patient's post-acute care."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is pregnant and has a history of heparin-induced thrombocytopenia, which prevents the use of heparin. Dabigatran and apixaban are not recommended for pregnant patients. Consultation with interventional radiology for IVC filter placement is a safer choice for post-acute care management given the patient's pregnancy and medical history of heparin-induced thrombocytopenia."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We consult medical websites for help. The patient is in week 33 of gestation and has a history of heparin-induced thrombocytopenia, making long-term heparin an inappropriate choice. While dabigatran and apixaban are oral anticoagulants that are safe to use in pregnant women, they are not recommended for treatment of PE during pregnancy. Therefore, the most appropriate choice of management would be to consult interventional radiology (IR) for IVC filter placement. This will prevent any future embolism while avoiding the risks associated with anticoagulation therapy during pregnancy."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s history of heparin-induced thrombocytopenia makes long-term heparin the least appropriate choice. Dabigatran and Apixaban are both anticoagulants that can be used for PE, but they are both pregnancy category C and therefore risk fetal harm. Consultation with interventional radiology for IVC filter placement is the most appropriate choice to prevent further emboli."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's medical history and current pregnancy make anticoagulation therapy difficult. Therefore, the most appropriate choice of management for her post-acute care would be to consult interventional radiology (IR) for inferior vena cava (IVC) filter placement. This will prevent future pulmonary embolism by trapping any emboli before they can reach the lungs. Initiation of long term heparin or a direct oral anticoagulant like dabigatran or apixaban may cause bleeding complications during delivery or postpartum hemorrhage."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's history of heparin-induced thrombocytopenia suggests that long-term heparin therapy is contraindicated. Dabigatran and apixaban are not recommended for pregnant women. Therefore, the most appropriate choice of management is to consult interventional radiology (IR) for insertion of an inferior vena cava (IVC) filter to prevent further PEs."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

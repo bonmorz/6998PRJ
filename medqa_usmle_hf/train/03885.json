@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6ziQp8bm5tsQLaIPfwAlddDLDvnsp",
+    "object": "chat.completion",
+    "created": 1680166823,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1335,
+        "completion_tokens": 834,
+        "total_tokens": 2169
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has not attained menarche but has breast development, suggesting Mayer-Rokitansky-Kuster-Hauser syndrome, which is caused by congenital absence of the uterus and upper two-thirds of the vagina. This is most commonly associated with a 46,XY karyotype. 45,XO is Turner syndrome, which would present with primary amenorrhea and underdeveloped breast tissue. 46,XX and 47,XXY karyotypes are not associated with Mayer-Rokitansky-Kuster-Hauser syndrome."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has primary amenorrhea (failure to attain menarche) and Tanner stage 4 breast development indicates that estrogen production has occurred, but the presence of a blind vaginal pouch suggests a lack of functional uterus and vagina. This is consistent with Mullerian agenesis, which is most commonly associated with a 46,XY karyotype."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has primary amenorrhea, breast development consistent with her age, and a blind vaginal pouch on examination. These findings are consistent with androgen insensitivity syndrome (AIS), which results from a defect in testosterone binding to its receptor. This defect occurs on the X chromosome, so the patient\u2019s karyotype is likely to be 46,XY."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s lack of menarche and pelvic examination findings suggest the presence of a Mullerian agenesis or Mayer-Rokitansky-K\u00fcster-Hauser (MRKH) syndrome, which is a condition where females are born without a uterus and upper vagina. This condition is most commonly associated with a 46,XY karyotype, although it can also occur in patients with a 46,XX karyotype. Therefore, the answer is (C) 46,XY."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s lack of menstrual cycle and blind vaginal pouch suggest Mullerian agenesis, which is commonly associated with 46,XY karyotype. All other karyotypes listed are not associated with Mullerian agenesis."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has not attained menarche, indicating primary amenorrhea, and examination shows a blind vaginal pouch, indicating absence of a uterus. This is consistent with Androgen Insensitivity Syndrome (AIS), which occurs in individuals with a male (XY) karyotype but with mutations in androgen receptor gene result in female external genitalia and incomplete or absent internal reproductive organs. Therefore, the most likely karyotype is 46,XY. Options A, B, and D do not fit the clinical picture."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s breast development and lack of menarche suggests Mullerian agenesis, with underdeveloped uterus and blind vaginal pouch. Among the options, only 46,XY can develop Mullerian agenesis. 45,XO has Turner syndrome with primary ovarian failure, 46,XX is normal female karyotype, and 47,XXY has Klinefelter syndrome."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has primary amenorrhea and a blind vaginal pouch, which suggests Mullerian agenesis. Among the options, only 46,XY can develop testes and not fully developed female reproductive organs, leading to Mullerian agenesis."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has not attained menarche and has a blind vaginal pouch, indicating absence of a uterus and vagina. Among the options, only karyotype 46,XY is associated with M\u00fcllerian agenesis."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to a medical textbook for help. The patient\u2019s symptoms suggest M\u00fcllerian agenesis, which is most commonly caused by a 46,XY karyotype. All the other options would not be consistent with the female breast and pubic hair development."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

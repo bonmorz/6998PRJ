@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zsOQA47XODRgtsTSIwBUtgaf1Z6d",
+    "object": "chat.completion",
+    "created": 1680205114,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1363,
+        "completion_tokens": 995,
+        "total_tokens": 2358
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient experienced physical stress and the increase in hormones like epinephrine and norepinephrine will cause inhibition of Phosphofructokinase, which regulates glycolysis. This is because the body will shift to using stored glycogen for energy during stress rather than relying solely on glycolysis."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The stress response involves the fight-or-flight mechanism, which releases epinephrine and norepinephrine. These hormones activate the sympathetic nervous system and inhibit the parasympathetic nervous system. Phosphofructokinase is inhibited by ATP and stimulated by AMP and fructose-2,6-bisphosphate, which are decreased during stress. Therefore, the most likely enzyme to be inhibited in this patient is phosphofructokinase."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. In cases of stress, the concentration of epinephrine and norepinephrine will be increased, which inhibits the activity of phosphofructokinase by binding to its allosteric site. This leads to decreased glycolysis, which helps conserve glucose for essential organs like the brain. None of the other enzymes are directly affected by these hormones."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient suffered a head injury and the body's response to stress will likely result in elevated levels of inhibitory hormones such as insulin and glucagon. Phosphofructokinase is inhibited by ATP and citrate, which can be elevated in a state of stress, leading to decreased glycolysis and energy production."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has experienced physical stress, which triggers the hypothalamic-pituitary-adrenal axis and the release of cortisol. Cortisol inhibits the activity of phosphofructokinase, delaying glycolysis and diverting glucose to other metabolic pathways needed for stress response. None of the other options are affected by cortisol inhibition."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The question mentions that in cases of stress certain hormones will be increased, while others will be decreased. One such hormone is insulin, which decreases during stress. As a result, the concentration of glucose in the blood will increase, and the body will switch to anaerobic respiration to generate energy. Phosphofructokinase is the enzyme that catalyzes the third step in glycolysis, which is the main pathway for anaerobic respiration. Insulin inhibits phosphofructokinase, so in the absence of insulin, phosphofructokinase will likely be activated. Therefore, the most likely answer is (B) phosphofructokinase."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient suffered from head trauma, which triggers the fight or flight response leading to an increase in epinephrine and norepinephrine. These hormones will inhibit Phosphofructokinase, which catalyzes the third step in glycolysis, thus slowing down the production of ATP. The other options are not regulated by epinephrine or norepinephrine."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The stress response activates the sympathetic nervous system and releases epinephrine and norepinephrine, which inhibit insulin secretion and stimulate glucagon secretion. This will lead to an increase in blood glucose levels, which will be utilized by glycolysis to generate ATP. In glycolysis, phosphofructokinase is inhibited by ATP and citrate, which are also increased in response to stress. Therefore, the answer is (B) phosphofructokinase."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The question mentions that certain hormones will be increased and others will be decreased under stress, but does not specify which. Among the options, only Phosphofructokinase is regulated by allosteric activators and inhibitors, such as ATP and citrate, which may be affected by changes in hormone levels under stress. Therefore, the answer is (B) Phosphofructokinase."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient hit their head, which is a form of stress that can result in the activation of the \"fight or flight\" response. This would cause a decrease in insulin secretion and an increase in glucagon secretion, leading to an increase in blood glucose levels. Phosphofructokinase is a key enzyme in glycolysis and is allosterically inhibited by ATP, activated by ADP, and inhibited by citrate. Increased glucagon levels would increase levels of AMP and ADP, which would activate the enzyme, leading to an increase in glycolysis and ultimately an increase in ATP production to provide energy for the body to respond to stress."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

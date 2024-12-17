@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6znDXtwgReWZfnhdTo5iquUC5IFeY",
+    "object": "chat.completion",
+    "created": 1680185219,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1310,
+        "completion_tokens": 738,
+        "total_tokens": 2048
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s history of chronic atrial fibrillation treated with a QT-prolonging drug and the progressive shortening of the QT interval during cardiac stress testing suggest that the drug he is taking is dofetilide, which is used to treat atrial fibrillation. The other options are not known to prolong the QT interval."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has chronic atrial fibrillation and is taking a drug that prolongs the QT interval. Among the options, only Dofetilide is a potassium channel blocker that prolongs the QT interval. The progressive shortening of the QT interval during cardiac stress testing suggests that the drug is being metabolized more quickly at higher heart rates."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has chronic atrial fibrillation and is taking a drug that prolongs the QT interval. The progressive shortening of the QT interval during cardiac stress testing suggests the drug is dofetilide, which is used to treat atrial fibrillation but can cause QT prolongation."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has chronic atrial fibrillation and is taking a drug that prolongs the QT interval, which suggests Dofetilide. During cardiac stress testing, the QT interval shortens as the heart rate increases, which is a characteristic of Dofetilide."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. A drug that prolongs the QT interval suggests that the patient is taking an antiarrhythmic drug. The progressive shortening of the QT interval during stress testing suggests that the patient is taking Dofetilide, which is known to have this effect. Lidocaine is not an antiarrhythmic drug that prolongs the QT interval. Diltiazem and Flecainide are not known to have this effect."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. A drug that prolongs the QT interval and shortens it during cardiac stress testing indicates that the patient is taking Dofetilide, which is used to treat atrial fibrillation."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's symptoms suggest that he may be taking a medication that causes QT interval prolongation. Of the options listed, only Dofetilide is known for its QT prolonging effects, and the ECG results suggest that this is the drug the patient is taking. In addition, the shortening of the QT interval with increasing heart rate is consistent with the effects of Dofetilide."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. A drug that prolongs the QT interval would be contraindicated in a patient with atrial fibrillation, so the patient is likely taking an antiarrhythmic drug. Among the options, only Dofetilide is known to cause progressive shortening of the QT interval with increasing heart rate."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has chronic atrial fibrillation and is taking a drug that prolongs the QT interval, which suggests that the drug is a Class III antiarrhythmic drug. Among the options, only Dofetilide is a Class III antiarrhythmic drug, and it is known to cause progressive shortening of the QT interval with increasing heart rate during stress testing."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. A drug that prolongs the QT interval is likely to be dofetilide, which is used to treat atrial fibrillation. During stress testing, progressive shortening of the QT interval is a characteristic of dofetilide."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

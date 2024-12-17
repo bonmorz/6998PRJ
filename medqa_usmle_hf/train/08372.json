@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zpyB6T1Es9WGJ8Pf4VpAkiPiw8HH",
+    "object": "chat.completion",
+    "created": 1680195799,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1413,
+        "completion_tokens": 755,
+        "total_tokens": 2168
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG findings suggest an inferior wall MI, which is most commonly caused by occlusion of the right coronary artery. This is supported by the patient's symptoms of chest pain, nausea, and sweating, and his medical history of hypertension and smoking which are risk factors for coronary artery disease."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG findings suggest an inferolateral wall MI, with ST elevations in the leads II, III, and aVF. The right coronary artery supplies blood to the inferior wall of the heart and the right ventricle, making (A) the most likely answer. Left anterior descending artery supplies the anterior wall and the septum, and the left main coronary artery is the main source of blood to the entire left side of the heart. Since the patient is presenting with chest pain, vomiting, and diaphoresis, it is highly unlikely that there is no obstruction in his cardiac blood supply."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows ST-segment elevation in leads II, III, and aVF, which indicates a possible inferior MI. The right coronary artery supplies the inferior wall of the left ventricle, and any obstruction to this artery may lead to an inferior MI. The other options would have different ECG findings."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows ST-segment elevation in leads II, III, and aVF, which suggests an infarction involving the inferior wall of the left ventricle, a territory supplied by the right coronary artery. The other options are less likely because they involve other areas of the heart."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows ST-segment elevation in leads II, III, and aVF, which suggests that the most likely obstruction is in the right coronary artery. The other options would have different ECG findings. Left anterior descending artery obstruction would show ECG findings in leads V1 to V6, left main coronary artery obstruction would show widespread ECG changes, and no obstruction would have normal ECG findings."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG findings indicate an inferior wall myocardial infarction, which involves the right coronary artery. Thus, the most likely obstruction is in the right coronary artery."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG findings show ST-segment elevation in leads II, III, and aVF, which is indicative of an inferior wall myocardial infarction. The right coronary artery usually supplies the inferior wall of the heart, so the most likely obstruction is in the right coronary artery."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG findings show ST-segment elevation in leads II, III, and aVF, which suggests an inferior myocardial infarction. The right coronary artery supplies the inferior wall of the heart, so it is the most likely location of obstruction in this patient\u2019s cardiac blood supply."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows ST elevation in leads II, III, and aVF, suggesting an inferior wall myocardial infarction. The right coronary artery supplies the inferior wall of the heart in most cases, making it the most likely site of obstruction. The other options supply other parts of the heart, which are not affected in this case."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows ST-segment elevation in leads II, III, and aVF, which are typically associated with the right coronary artery. This suggests that there is an obstruction in the right coronary artery. None of the other options are associated with these ECG findings."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

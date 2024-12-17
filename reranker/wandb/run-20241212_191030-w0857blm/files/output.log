@@ -1,0 +1,14 @@
+You are using a model of type bert to instantiate a model of type . This is not supported for all configurations of models and can yield errors.
+Some weights of ColBERT were not initialized from the model checkpoint at michiyasunaga/LinkBERT-base and are newly initialized: ['compressor.bias', 'compressor.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Inside the ColBERT: michiyasunaga/LinkBERT-base
+Model n_cands: 8
+trainable params: 1,180,416 || all params: 110,081,280 || trainable%: 1.0723
+Traceback (most recent call last):
+  File "/home/rl/KARD/reranker/main.py", line 257, in <module>
+    run(args)
+  File "/home/rl/KARD/reranker/main.py", line 53, in run
+    train_dataset = RetrieverDataset(args, tokenizer, fold="train")
+  File "/home/rl/KARD/reranker/retriever_dataset.py", line 30, in __init__
+    with open(os.path.join(args.data_dir, "tset.json"), 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../preprocessed_data/strategyqa-cot/tset.json'

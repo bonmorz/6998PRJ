@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zqASYTOCagvjzO4xKJrrmSGiFkBh",
+    "object": "chat.completion",
+    "created": 1680196560,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1353,
+        "completion_tokens": 889,
+        "total_tokens": 2242
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has chronic obstructive pulmonary disease (COPD) and beta blockers can worsen his symptoms. Labetalol is a non-selective beta blocker and should be avoided in patients with COPD. The other options are selective beta blockers and can be considered."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of chronic obstructive pulmonary disease and is already taking an anticholinergic agent. Labetalol is a non-selective beta blocker with some alpha-blocking activity, which may cause bronchospasm in patients with underlying airway disease. Therefore, it should be avoided in this patient. Atenolol, betaxolol, and bisoprolol are all cardio-selective beta blockers and are fine to use in patients with asthma or chronic obstructive pulmonary disease."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Since the patient has obstructive pulmonary disease, beta blockers with intrinsic sympathomimetic activity (ISA) such as Labetalol should be avoided as they can exacerbate bronchoconstriction. Atenolol, Betaxolol, and Bisoprolol are beta blockers without ISA and can be considered for treatment."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of chronic obstructive pulmonary disease and beta blockers can cause bronchoconstriction, so agents that are more selective for beta-1 receptors are preferred. Labetalol, however, is non-selective and can cause significant bronchoconstriction in patients with obstructive airway disease, so it should be avoided. Atenolol, Betaxolol, and Bisoprolol are all more beta-1 selective and may be appropriate for this patient."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of chronic obstructive pulmonary disease and additional treatment with a beta blocker might exacerbate the symptoms. Labetalol, which has both beta-blocking and alpha-blocking effects, should be avoided in this patient. The other options are selective beta blockers and may be considered."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of COPD and taking ipratropium bromide, which is an anticholinergic medication. Labetalol is a non-selective beta-blocker with some alpha-1 blocking effects, which may cause bronchospasm and worsen COPD symptoms. Therefore, it should be avoided in this patient. Atenolol, betaxolol, and bisoprolol are cardioselective beta-blockers, which are generally safe to use in patients with COPD."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of chronic obstructive pulmonary disease and mild expiratory wheezing, which are contraindications for non-selective beta-blockers like labetalol. Selective beta-blockers like atenolol, betaxolol, and bisoprolol may be considered as they have less impact on pulmonary function."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of chronic obstructive pulmonary disease, which means he has bronchoconstriction. Labetalol is a non-selective beta blocker and may worsen the bronchoconstriction in patients with obstructive lung disease. Therefore, it should be avoided in this patient. The other options are cardioselective beta blockers, which have less effect on bronchoconstriction and can be used in patients with pulmonary disease."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of chronic obstructive pulmonary disease and mild expiratory wheezing is present, which can potentially worsen with beta blockers. Labetalol, a nonselective beta blocker with alpha-blocking activity, is more likely to cause bronchospasm and should be avoided in this patient. Selective beta blockers like Atenolol, Betaxolol, and Bisoprolol are better options."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of COPD and mild expiratory wheezing, which may worsen with beta blockers that have intrinsic sympathomimetic activity, such as labetalol. Therefore, it should be avoided in this patient. The other options can be considered."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

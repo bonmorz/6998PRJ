@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zgBXzgYEvy1EPsR2qt9haoJmtnhc",
+    "object": "chat.completion",
+    "created": 1680158187,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1381,
+        "completion_tokens": 811,
+        "total_tokens": 2192
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Heparin dosing is monitored by activated partial thromboplastin time (aPTT), as it reflects the intrinsic and common pathways of the clotting cascade, which heparin inhibits. Prothrombin time (PT) and Internationalized Normal Ratio (INR) are used to monitor warfarin therapy. Creatinine level is used to monitor kidney function, but not heparin dosing."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Activated partial thromboplastin time (aPTT) is used to monitor heparin therapy."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Activated partial thromboplastin time (aPTT) is used to monitor heparin therapy. Heparin works by increasing the duration of aPTT, and thus it should be monitored to adjust heparin dosing. Prothrombin time (PT) and Internationalized Normal Ratio (INR) are used to monitor warfarin therapy, not heparin. Creatinine level is important in monitoring renal function, but it is not used to adjust heparin dosing."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Heparin is monitored by the activated partial thromboplastin time (aPTT), which measures the time it takes for a clot to form in a plasma sample under specific conditions. Prothrombin time (PT) and INR are used to monitor warfarin therapy. Creatinine level is used to monitor kidney function."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Heparin affects the intrinsic pathway of the coagulation cascade, which is monitored by activated partial thromboplastin time (aPTT). Therefore, aPTT should be monitored to adjust heparin dosing in this patient with deep vein thrombosis. Prothrombin time (PT) and Internationalized Normal Ratio (INR) are used to monitor warfarin therapy, while creatinine level is used to monitor kidney function."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Heparin is monitored using activated partial thromboplastin time (aPTT). Prothrombin time (PT) and international normalized ratio (INR) are used to monitor warfarin therapy. Creatinine level is not used to monitor heparin therapy, but it is monitored to assess kidney function which can affect drug dosing."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Heparin is a medication used to prevent blood clots, and the standard way to monitor its effectiveness and adjust dosing is through activated partial thromboplastin time (aPTT). Prothrombin time and INR are used to monitor warfarin therapy, another medication used for preventing blood clots. Creatinine levels are monitored to assess kidney function."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Heparin works by inhibiting clotting factors, and its effectiveness is monitored by measuring the activated partial thromboplastin time (aPTT). Prothrombin time, INR, and creatinine levels are not directly related to heparin dosing."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Activated partial thromboplastin time (aPTT) is used to monitor heparin therapy in patients with deep vein thrombosis. Prothrombin time (PT) and Internationalized Normal Ratio (INR) are used to monitor warfarin therapy. Creatinine level is used to monitor renal function."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Heparin affects the intrinsic coagulation pathway, which is measured by activated partial thromboplastin time (aPTT). Therefore, aPTT should be monitored to adjust heparin dosing. Prothrombin time (PT) and INR are used to monitor warfarin therapy, while creatinine level is used to monitor kidney function."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

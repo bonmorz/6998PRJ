@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6znAM6jcOO2tvkuj4Iy2t9vTkED8A",
+    "object": "chat.completion",
+    "created": 1680185022,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1401,
+        "completion_tokens": 676,
+        "total_tokens": 2077
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms and history of triple-negative breast cancer suggest that she underwent anthracycline chemotherapy. Anthracyclines, such as doxorubicin, are known to cause cardiotoxicity and can lead to left ventricular dysfunction."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms and history of breast cancer suggest that the patient underwent anthracycline chemotherapy. Anthracyclines are known to cause cardiotoxicity, which can result in decreased left ventricular ejection fraction and heart failure. Therefore, the drug most likely responsible for the patient's current symptoms belongs to the anthracycline group of agents."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms of shortness of breath and coarse inspiratory crackles suggest that the patient has cardiotoxicity from chemotherapy. Among the options, only Anthracyclines are known to cause cardiotoxicity."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms and history of chemotherapy suggest that the drug responsible for her current symptoms belong to the Anthracyclines group of agents. These drugs are known to cause cardiotoxicity and can lead to ventricular dysfunction, which corresponds with the patient\u2019s low ejection fraction."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms and the patient\u2019s medical history suggest that the most likely cause of her shortness of breath is an adverse effect of chemotherapy. Among the options, anthracyclines are known to cause cardiomyopathy and decreased left ventricular function, which can result in the symptoms described by the patient."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms and history of breast cancer suggest that the patient received anthracycline-based chemotherapy, which is known to cause cardiotoxicity and reduce left ventricular ejection fraction. Alkylating agents, antimetabolites, and topoisomerase inhibitors do not typically cause cardiotoxicity."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's symptoms are most likely due to cardiotoxicity caused by chemotherapy. Among the choices, anthracyclines are well-known for their potential cardiotoxic effects."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms and medical history suggest that her current symptoms are due to an adverse effect of her chemotherapy. Among the options, anthracyclines are known to cause cardiotoxicity which can result in heart failure and shortness of breath."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Anthracyclines, such as doxorubicin, are known to cause cardiotoxicity and can result in left ventricular dysfunction. The patient's history of breast cancer and undergoing adjuvant chemotherapy suggest that she was treated with an anthracycline-containing regimen. Alkylating agents and antimetabolites are not associated with cardiotoxicity, and topoisomerase I inhibitors cause diarrhea and neutropenia rather than cardiac symptoms."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Triple-negative breast cancer is often treated with anthracyclines-based chemotherapy, which can cause cardiotoxicity and lead to heart failure. The patient's symptoms, including shortness of breath on exertion and reduced ejection fraction, are consistent with anthracycline cardiotoxicity."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

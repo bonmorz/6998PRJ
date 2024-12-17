@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zkYrxsKWtbk1BL1DHg7eaiZi0w8M",
+    "object": "chat.completion",
+    "created": 1680175009,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1465,
+        "completion_tokens": 748,
+        "total_tokens": 2213
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is experiencing weakness and numbness in the left leg and right leg weakness with hypertonia, suggesting an upper motor neuron lesion. The decreased pinprick sensation on the left side below the umbilicus suggests a spinal cord lesion, and since the right leg strength is affected, the lesion is likely located in the right hemi-spinal cord."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms suggest a lesion in the spinal cord, specifically affecting the right side below the umbilicus. Option C is the only one that indicates a lesion in the spinal cord, on the correct side. Option A is incorrect as the symptoms are not limited to one side of the body, and option B and D suggest a lesion in the brain, which would not explain the observed symptoms in the legs."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms suggest a lesion in the right hemispinal cord since the numbness, tingling, and weakness are all on the left side of the body. A lesion in the left hemispinal cord or right frontal lobe would affect the opposite side of the body, while a lesion in the right pons would affect both sides."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms of left leg numbness and tingling, right leg weakness and increased tone, and decreased pinprick sensation below the umbilicus suggest a lesion in the right hemi-spinal cord. All other options do not match the presented symptoms."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has symptoms of UMN lesion in the right leg and sensory loss in the left side below the umbilicus, suggesting a lesion in the right hemi-spinal cord. All the other options involve either the brain or the brainstem."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms suggest a lesion affecting the right side of the spinal cord, as evidenced by the right leg weakness and decreased sensation. The fact that the upper extremities are normal and that cranial nerves are intact suggests that the lesion is not in the brain. Therefore, option (C), the right hemi-spinal cord, is the most likely location of the lesion."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms suggest a lesion in the right hemi-spinal cord, as the weakness and numbness are unilateral and below the umbilicus. The other options do not fit the symptoms described."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient shows symptoms of a spinal cord injury on the right side, which narrows down the options to right hemi-spinal cord or right frontal lobe. However, the presence of right leg weakness and extensor plantar reflex suggests lower motor neuron involvement, which occurs in spinal cord injuries. Therefore, the most likely location of the lesion is the right hemi-spinal cord."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms suggest a lesion in the spinal cord, and the fact that the numbness and weakness is on the same side indicates a hemi-spinal cord lesion. The right hemi-spinal cord is the most likely location based on the specific symptoms described. Frontal lobe lesions would not cause these symptoms and pons lesions would involve cranial nerves."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms, including gradual right leg weakness and left leg numbness, suggest a spinal cord lesion. The decreased sensation below the umbilicus on the left side and decreased vibration and joint position senses on the right side indicate a right hemi-spinal cord lesion. All other options are not consistent with the symptoms described."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

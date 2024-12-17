@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zkm57boH9fnVpUlztfpJzklbXC8Z",
+    "object": "chat.completion",
+    "created": 1680175829,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1332,
+        "completion_tokens": 718,
+        "total_tokens": 2050
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient and her husband are both carriers of a mutation in the ATP7B gene, which is associated with Wilson's disease. This is an autosomal recessive disorder, meaning that the chance of an affected child is 25%. There is a 50% chance that the child will be a carrier like the parents and a 25% chance that the child will not inherit the mutation."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The genetic mutation in the ATP7B gene is associated with Wilson's disease, which is autosomal recessive. This means that both parents must be carriers for the offspring to have a chance of inheriting the condition. The chance of the offspring having the condition is 25%."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patients and her husband are carriers of a mutation in the ATP7B gene, which means they have a 25% chance of having an affected offspring, a 50% chance of having a carrier offspring, and a 25% chance of having an unaffected offspring."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to medical genetics articles for help. The patient and her husband are both carriers, meaning they each have one copy of the mutated gene but do not have the condition. Each of their offspring has a 25% chance of inheriting two copies of the mutated gene and developing the hereditary condition."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The presence of the mutation in both parents means that their offspring have a 25% chance of inheriting both copies of the mutated gene and developing the hereditary condition."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient and her husband both being carriers means they each have one mutated ATP7B gene, but not the condition themselves. If they have a child, there is a 25% (1 in 4) chance that the child will inherit two copies of the mutated gene and develop the hereditary condition. There is also a 50% chance that the child will be a carrier like the parents, and a 25% chance that the child will have two normal copies of the gene."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The presence of a mutation in the ATP7B gene in both parents indicates that there is a 25% chance that their offspring will develop the hereditary condition. This is because the inheritance pattern is autosomal recessive, meaning that both copies of the gene must be mutated for the disease to manifest. If both parents are carriers, there is a 25% chance that both will contribute the mutated gene and the offspring will develop the condition."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The presence of a mutation in the ATP7B gene suggests Wilson's disease, which is an autosomal recessive disorder. As both the patient and her husband are carriers, there is a 25% chance that their offspring will inherit the condition."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Carriers of a recessive disorder have a 25% chance of having an affected child. Both the patient and her husband are carriers, so there is a 25% chance that their offspring will develop the hereditary condition."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Since both the patient and her husband are carriers of the mutation, they have a 25% chance of having offspring who have the hereditary condition. This is because there is a 1 in 4 chance that their offspring will inherit two copies of the mutated gene, one from each parent."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

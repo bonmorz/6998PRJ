@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zefYLDCcWJfivwfJTTjsowovSriw",
+    "object": "chat.completion",
+    "created": 1680152360,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1392,
+        "completion_tokens": 754,
+        "total_tokens": 2146
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Intussusception is a rare but known side effect of some vaccines, so a history of intussusception is a contraindication for administering routine vaccinations. Fever after previous vaccinations or a history of febrile seizures are not contraindications, and having cystic fibrosis is not a contraindication for vaccinations."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The question asks for a contraindication for administering one or more routine vaccinations in this patient at this time. Among the options, only history of intussusception is a contraindication for administering rotavirus vaccination, which is one of the routine vaccinations for infants. The fever following previous vaccinations, history of cystic fibrosis, and history of febrile seizures are not contraindications for routine vaccinations."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Among the options, only history of intussusception is a contraindication for routine vaccinations at this time. It is important to remember that patients with cystic fibrosis should receive routine vaccinations as they are at increased risk of respiratory infections."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Intussusception is a rare but serious adverse effect of rotavirus vaccination, and is a contraindication for further vaccination. None of the other options are contraindications for routine vaccinations."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has cystic fibrosis and wheezes, indicating respiratory system issues. None of the options seem related to these issues, but intussusception is a contraindication for administering vaccines as it can cause temporary bowel obstruction."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Among the options, only history of intussusception is a contraindication for administering routine vaccinations. Cystic fibrosis, febrile seizures, and fever after previous vaccinations are not contraindications."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has cystic fibrosis, which is not a contraindication for routine vaccinations. A fever following previous vaccinations is a precaution, but not a contraindication. A history of febrile seizures may require some modifications in vaccine administration but is also not a contraindication. History of intussusception is a contraindication for administering rotavirus vaccine. Therefore, the answer is (D)."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Among the options, only a history of intussusception is a contraindication for administering routine vaccinations due to the increased risk of intussusception recurrence after rotavirus vaccination. The patient's history of cystic fibrosis does not contraindicate routine vaccinations. Fever of 38.2\u00b0C following previous vaccinations and a history of febrile seizures may be a reason to delay vaccinations but are not absolute contraindications."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has cystic fibrosis, which is not a contraindication for administering routine vaccinations. A fever following previous vaccinations and a history of febrile seizures may indicate a risk of adverse reactions but are not absolute contraindications. A history of intussusception, which is a type of bowel obstruction, is a contraindication for administering certain vaccines, such as rotavirus vaccines. Therefore, option (D) is the correct answer."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Intussusception is a contraindication for administering routine vaccinations. None of the other options are contraindications. The patient\u2019s CF diagnosis and symptoms make vaccinations even more important for preventing respiratory infections."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

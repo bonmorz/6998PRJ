@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zfkUisHVB45DCh3ZCTli4IP7wh16",
+    "object": "chat.completion",
+    "created": 1680156510,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1381,
+        "completion_tokens": 833,
+        "total_tokens": 2214
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms suggest menopausal symptoms and she requests HRT, but a personal history of breast cancer would make HRT contraindicated. Family history of breast cancer is a risk factor but not necessarily a contraindication. Family history of endometrial cancer and failure of control with SSRI/SNRI do not have any direct contraindications."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. HRT is contraindicated in patients with known or suspected personal history of breast cancer. Family history of breast cancer increases the risk but is not an absolute contraindication. Family history of endometrial cancer and failure of symptomatic control with SSRI/SNRI are not contraindications."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. HRT is contraindicated in patients with a known or suspected personal history of breast cancer. Family history of breast cancer is a relative contraindication, but it is not an absolute contraindication. Family history of endometrial cancer and failure of symptomatic control with SSRI/SNRI are not contraindications for HRT."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. HRT can increase the risk of breast cancer and is contraindicated in patients with known or suspected personal history of breast cancer. All other options do not directly contraindicate HRT."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. HRT is contraindicated in patients with a known or suspected personal history of breast cancer due to the increased risk of recurrence. Family history of breast cancer, family history of endometrial cancer, and failure of symptomatic control with SSRI/SNRI are not contraindications for HRT."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Known or suspected personal history of breast cancer is a contraindication for HRT due to the increased risk of recurrence or new breast cancer. Family history of breast cancer only increases the risk but is not a contraindication. Family history of endometrial cancer is a relative contraindication but not an absolute contraindication. Failure of symptomatic control with SSRI/SNRI may suggest a need for alternative therapy but does not contraindicate HRT."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. HRT is contraindicated in patients with known or suspected personal history of breast cancer. Family history of breast cancer is a risk factor but not necessarily a contraindication. Family history of endometrial cancer and failure of symptomatic control with SSRI/SNRI are not contraindications for HRT."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. HRT is contraindicated in patients with known or suspected personal history of breast cancer, so option (B) is the correct answer. Family history of breast cancer and endometrial cancer are not absolute contraindications but may require careful consideration before starting HRT. Failure of symptomatic control with SSRI/SNRI is not a contraindication to HRT."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. HRT is contraindicated in patients with known or suspected personal history of breast cancer, as it may increase the risk of recurrence. Family history of breast cancer does not necessarily mean the patient has a personal history of breast cancer, and therefore is not a contraindication for HRT. Family history of endometrial cancer is a risk factor, but not a contraindication. SSRI/SNRI failure is not a contraindication for HRT."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. HRT is contraindicated in patients with known or suspected personal history of breast cancer, as it can increase the risk of recurrence. Family history of breast cancer or endometrial cancer may increase the risk of developing these cancers but does not necessarily contraindicate HRT. Failure of symptomatic control with SSRI/SNRI is not a contraindication for HRT."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

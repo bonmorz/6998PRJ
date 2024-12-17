@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zn2akXGEs5YJXNCDUGuj2idP9xDS",
+    "object": "chat.completion",
+    "created": 1680184540,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1357,
+        "completion_tokens": 1174,
+        "total_tokens": 2531
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows a narrow complex tachycardia with a regular rhythm, suggestive of supraventricular tachycardia. Flecainide is a Class IC antiarrhythmic agent, which blocks sodium channels and has a use-dependent effect, meaning that it has greater efficacy at higher heart rates. Therefore, it is the most likely medication to be used for cardioversion in this case. Amiodarone is a Class III antiarrhythmic agent, which blocks potassium channels and has a slower onset of action. Propranolol and Verapamil are beta-blockers and calcium channel blockers, respectively, which are not typically used for cardioversion of supraventricular tachycardia."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows a regular narrow-complex tachycardia, suggesting supraventricular tachycardia (SVT). Flecainide is typically used to treat SVT as it has a use-dependent effect which means it selectively blocks fast sodium channels in activated cells, specifically those that have a rapid heart rate."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows a regular wide complex tachycardia, suggesting ventricular tachycardia. Among the options, only Flecainide has use-dependent effect and is used for treating ventricular tachycardia. Amiodarone is used for atrial and ventricular arrhythmias, but it does not have use-dependent effect. Propranolol and Verapamil are not used for ventricular arrhythmias."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows atrial fibrillation with a rapid ventricular response. Flecainide is an antiarrhythmic agent that has a use-dependent effect and is used for cardioversion in cases of atrial fibrillation. It works by blocking sodium channels in the heart, which helps to restore normal heart rhythm. Amiodarone is also used for cardioversion in atrial fibrillation, but it does not have a use-dependent effect like Flecainide. Propranolol and Verapamil are not antiarrhythmic agents and are not used for cardioversion."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG indicates supraventricular tachycardia (SVT). Flecainide is a Class Ic antiarrhythmic drug with a use-dependent effect, which means it has a greater affinity for rapidly depolarizing cells, like those in the atria during SVT. It is often used for cardioversion of SVT. Amiodarone is a Class III antiarrhythmic drug that is often used for ventricular arrhythmias but may also be effective for SVT. Propranolol and verapamil are not typically used for cardioversion of SVT."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows a wide QRS complex tachycardia, which can be either ventricular tachycardia or supraventricular tachycardia with aberrancy. Flecainide is an antiarrhythmic agent that blocks Na+ channels and has a use-dependent effect, which slows conduction in tachycardias without affecting normal conduction at slower heart rates. Therefore, it is the most likely medication to be used for cardioversion in this case."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows a narrow complex tachycardia, which suggests atrial flutter. Among the options, only Flecainide has a use-dependent effect on sodium channels, which is useful for cardioversion of atrial flutter. Amiodarone, Propranolol, and Verapamil have different mechanisms of action and are not as useful for cardioversion of atrial flutter."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows a narrow QRS complex tachycardia, which is usually caused by reentry in the AV node. Flecainide is a Class IC antiarrhythmic agent that has a use-dependent effect, meaning its binding to sodium channels is more effective when the channels are already open, increasing its effectiveness in treating AV node reentry. Amiodarone is effective in treating more broad-spectrum tachycardia, while Propranolol and Verapamil are not effective for treating AV node reentry."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows a wide QRS complex tachycardia, which suggests ventricular tachycardia. Flecainide is an antiarrhythmic agent that works by use-dependent block of sodium channels, making it effective for treating ventricular tachycardia. Amiodarone also has a use-dependent effect but it is generally not the first choice for cardioversion of ventricular tachycardia. Propranolol and Verapamil are not effective for ventricular tachycardia."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows a narrow-complex tachycardia, which indicates supraventricular tachycardia (SVT). Flecainide has a use-dependent effect, which means that it is more effective in blocking sodium channels during faster heart rates, such as those seen in SVT. Amiodarone is used for more severe arrhythmias, such as ventricular fibrillation or ventricular tachycardia. Propranolol and verapamil are not used for cardioversion of SVT, and verapamil may even worsen the condition."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

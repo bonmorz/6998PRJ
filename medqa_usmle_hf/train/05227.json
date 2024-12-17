@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zkk1xQrs92xuh7R8mnhDe0aXZ0yD",
+    "object": "chat.completion",
+    "created": 1680175701,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1337,
+        "completion_tokens": 504,
+        "total_tokens": 1841
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms, including polyuria and polydipsia, suggest diabetes insipidus. Lithium is a known cause of nephrogenic diabetes insipidus, which would not respond to DDAVP. The other options do not commonly cause diabetes insipidus."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms suggest the syndrome of inappropriate antidiuretic hormone secretion (SIADH). Among the options, only lithium can induce SIADH as a side effect."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms suggest diabetes insipidus, and among the options, Lithium is known to cause this condition as a side effect."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's symptoms and lack of response to DDAVP suggest diabetes insipidus. Among the options, lithium is known to cause nephrogenic diabetes insipidus, which could explain the patient's symptoms."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's symptoms suggest diabetes insipidus, which can be caused by medications such as Lithium. None of the other options are known to cause diabetes insipidus."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's symptoms suggest diabetes insipidus, which can be caused by certain medications such as lithium. The other options are not known to cause this syndrome."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms suggest the patient has diabetes insipidus, which can be caused by lithium toxicity. None of the other options are known to cause this syndrome."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms described by the patient suggest diabetes insipidus, which can be caused by Lithium toxicity. The other medications listed are not known to cause diabetes insipidus."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms suggest Syndrome of inappropriate antidiuretic hormone secretion (SIADH) and lithium is a known cause of SIADH. Omeprazole, nitrofurantoin, and nafcillin are not typically associated with SIADH."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms suggest diabetes insipidus, and among the options, only Lithium is known to cause this as a side effect. Managing the underlying psychiatric disease with an alternative medication may help alleviate these symptoms."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

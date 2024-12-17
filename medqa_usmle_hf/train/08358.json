@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zpwrQhWD5KIrI2rLQyBU6UvmCKmT",
+    "object": "chat.completion",
+    "created": 1680195717,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1343,
+        "completion_tokens": 880,
+        "total_tokens": 2223
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The disease is inherited in an autosomal recessive pattern, which means that both parents must be carriers of the mutation in order for their child to be affected. The question states that the patient's wife and son have normal vision, so it is unlikely that his wife is a carrier. Therefore, the probability of his son being affected is 0%."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The missense mutation in one of the genes of the electron transport chain complexes indicates a mitochondrial disorder. Mitochondrial disorders are inherited from the mother, and since the patient's wife has normal vision, the probability of the patient's son being affected by the same disease is 0%."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The inheritance pattern for disorders affecting mitochondrial DNA is maternal, meaning that the mutation is passed down from the mother. In this case, the patient's wife has normal vision, and therefore does not carry the mutation. This means there is no chance of the son being affected by the disease, so the probability is 0%."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The fact that the patient's maternal uncle had the disease suggests that it is inherited. The presence of a missense mutation in one of the genes of the electron transport chain complexes indicates that this is likely a mitochondrial disease. Mitochondrial diseases are usually inherited from the mother, and the patient's wife and son have normal vision, so the disease is unlikely to be transmitted to his son. Therefore, the probability that this patient's son will be affected by the same disease is 0%."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The specific disease is not mentioned, but the fact that it is caused by a missense mutation suggests a genetic disorder. The uncle's illness and the patient's worsening vision suggest that it is probably an autosomal dominant trait. The fact that the patient's wife and son have normal vision suggests that the wife is not affected and that the patient is heterozygous. Therefore, the probability that the son will inherit the disease is 50%, but the probability that he will be affected is only 25%. However, since the correct answer choice is not listed, the closest answer is 0%."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. This patient has Leber hereditary optic neuropathy (LHON), which is a mitochondrial disease inherited through the maternal line. As the patient's wife has normal vision, it is unlikely that she carries the mutation. Therefore, the likelihood that the patient's son will be affected is 0%."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Since the patient has a missense mutation in one of the genes of the electron transport chain complexes, it suggests that he has Leber hereditary optic neuropathy (LHON), an inherited form of vision loss. LHON is inherited through maternal transmission, so the patient's son will not be affected since LHON is not passed down from fathers. Therefore, the probability of his son being affected is 0%."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The disease described is likely Leber hereditary optic neuropathy (LHON), which is caused by mutations in the mitochondrial DNA. The disease is inherited through the maternal line, so the patient's son has a 0% chance of inheriting the disease if the patient's wife (the child's mother) does not carry the mutation."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The disease mentioned in the question is Leber hereditary optic neuropathy (LHON), which is caused by mutations in genes of the mitochondrial complex I. It is inherited in a maternal pattern, meaning the affected individual inherits the mutation from their mother. As the patient's son has a normal vision and his wife does not show any symptoms, it can be inferred that the mutation was not passed down to the patient's wife and therefore, there is 0% chance that their son will be affected."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Mitochondrial diseases are inherited from the maternal lineage due to the presence of mitochondrial DNA in the ovum. Therefore, since the patient's son is male and inherited his nuclear DNA from his father, there is a 0% chance that he will be affected by the same disease."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

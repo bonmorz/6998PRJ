@@ -1,0 +1,72 @@
+{
+    "os": "Linux-5.10.0-33-cloud-amd64-x86_64-with-glibc2.31",
+    "python": "3.10.15",
+    "heartbeatAt": "2024-12-12T19:10:30.602393",
+    "startedAt": "2024-12-12T19:10:30.313899",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--dataset",
+        "strategyqa",
+        "--generate_search_space"
+    ],
+    "state": "running",
+    "program": "/home/rl/KARD/reranker/main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/Nardien/KARD.git",
+        "commit": null
+    },
+    "email": null,
+    "root": "/home/rl/KARD/reranker",
+    "host": "instance-20241209-192300",
+    "username": "root",
+    "executable": "/opt/conda/bin/python",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2200.136,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2200.136,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.136,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.136,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.136,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 491.8999481201172,
+            "used": 89.5057144165039
+        }
+    },
+    "gpu": "NVIDIA L4",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA L4",
+            "memory_total": 24152899584
+        }
+    ],
+    "memory": {
+        "total": 15.633014678955078
+    }
+}

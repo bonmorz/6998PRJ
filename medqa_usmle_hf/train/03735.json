@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6ziBY8QltCv4sIdI3BYfy5zZ6Ukxo",
+    "object": "chat.completion",
+    "created": 1680165876,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1362,
+        "completion_tokens": 1160,
+        "total_tokens": 2522
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's ECG shows a normal QTc interval and a prolonged PR interval, which are not associated with false-positive ST-segment depression or decreased maximal heart rate during cardiac stress testing. Prolonged QRS complex can be a potential side effect of flecainide and may be seen on stress testing."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a prolonged QT interval and taking flecainide, which can increase the risk of arrhythmia during exercise stress testing. However, none of the options suggest this. False-positive ST-segment depression can be seen in patients with left bundle branch block, which the patient does not have. Prolonged QRS complex is often seen in patients with bundle branch block or ventricular hypertrophy, which can be possible in this patient. Decreased maximal heart rate is not a common ECG change seen on stress testing. Therefore, option (C) is the most likely answer."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Flecainide is a sodium channel blocker that can lead to a prolonged QRS complex on an ECG. This effect may persist during cardiac stress testing. Prolonged QTc intervals can also be a side effect of flecainide, but this patient's QTc is within the normal range. False-positive ST-segment depression is not a typical effect of flecainide. Decreased maximal heart rate is not related to flecainide use."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of atrial fibrillation and is taking flecainide, which is a Class I antiarrhythmic drug that can cause QRS prolongation. Cardiac stress testing may cause an increase in heart rate and can exacerbate QRS prolongation. Prolonged QTc interval is not commonly seen in patients taking flecainide, and false-positive ST-segment depression is more commonly associated with exercise-induced hyperventilation. Decreased maximal heart rate is not a direct ECG change."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a regular pulse and no abnormalities on physical examination or ECG, except for a prolonged QT interval. However, prolonged QRS complex is more likely to be seen on cardiac stress testing in this patient with a history of paroxysmal atrial fibrillation and flecainide treatment. False-positive ST-segment depression is a common occurrence in patients with left ventricular hypertrophy. Decreased maximal heart rate is not a common ECG change seen on cardiac stress testing."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a normal QT interval but is taking flecainide which can cause a prolonged QRS complex on an ECG. This is most likely to be seen on cardiac stress testing. False-positive ST-segment depression may occur if the patient is taking digoxin, beta-blockers or calcium channel blockers. Prolonged QTc interval is not a likely finding in this patient. Decreased maximal heart rate may occur in patients taking beta-blockers."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has normal vital signs and no physical abnormalities but has a history of paroxysmal atrial fibrillation. Flecainide is an antiarrhythmic drug, so stopping it may increase the likelihood of cardiac stress testing-induced arrhythmia. Prolonged QTc interval may lead to arrhythmia and sudden death but this patient's corrected QT interval is within the reference range. False-positive ST-segment depression happens in patients with conditions that can mimic ischemia, such as left ventricular hypertrophy or bundle branch block. Decreased maximal heart rate may occur in patients with restrictive lung disease or heart failure but there is no evidence of these conditions in this patient. Prolonged QRS complex may indicate a block or abnormal conduction pathway, which can be indicative of underlying heart disease and may be seen on cardiac stress testing."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a normal QTc interval, and pausing flecainide is not expected to cause false-positive ST-segment depression. A prolonged QRS complex can be a side effect of flecainide, which is used to treat atrial fibrillation. Therefore, it is most likely to be seen on cardiac stress testing in this patient."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Flecainide is a class I antiarrhythmic agent that works by blocking sodium channels, leading to a prolongation of the QRS complex on the ECG. Therefore, the most likely ECG change to be seen on cardiac stress testing in this patient would be a prolonged QRS complex. Prolonged QTc interval is more commonly associated with class III antiarrhythmic agents such as amiodarone. False-positive ST-segment depression can be seen in patients with left ventricular hypertrophy or bundle branch block. Decreased maximal heart rate may be seen in patients with beta-blocker therapy or other negative chronotropic medications."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Since the patient has a history of atrial fibrillation and is taking flecainide, which is an antiarrhythmic drug, the most likely change to be seen on cardiac stress testing is prolonged QRS complex. This is because flecainide can cause conduction disturbances, leading to widening of the QRS complex on ECG. Prolonged QTc interval is not typically seen with flecainide, and false-positive ST-segment depression and decreased maximal heart rate are also not common findings with this medication."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

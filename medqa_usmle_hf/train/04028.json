@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zifNzmEa5adDIcF4mz3VK28756vQ",
+    "object": "chat.completion",
+    "created": 1680167725,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1512,
+        "completion_tokens": 945,
+        "total_tokens": 2457
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of myocardial infarction 6 weeks ago, which is a contraindication for tPA treatment. This increases the risk of bleeding in the brain. Atrial fibrillation is a risk factor, but not a contraindication for tPA treatment. Chronic kidney disease and raised blood pressures are not contraindications either."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is presenting with symptoms of a stroke and is not eligible for tPA due to his recent history of myocardial infarction. tPA is contraindicated in patients who have had a recent MI due to the risk of bleeding in the infarcted area. The other factors listed are not absolute contraindications to tPA use. However, a raised blood pressure could still be a consideration in deciding whether to administer tPA."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. tPA is contraindicated in patients with a recent myocardial infarction (within 3 months). Therefore, the patient\u2019s history of MI 6 weeks ago is the reason for deferring tPA treatment. Atrial fibrillation is a risk factor for stroke, but it is not a contraindication for tPA. Chronic kidney disease and raised blood pressures are not contraindications as well."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's history of myocardial infarction 6 weeks ago is a contraindication for tPA use due to the risk of bleeding. Atrial fibrillation on the ECG is actually an indication for tPA use in the setting of stroke. Chronic kidney disease and raised blood pressures are not contraindications for tPA use."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient meets the criteria for tPA administration for ischemic stroke, however, the history of myocardial infarction 6 weeks ago is a contraindication to tPA administration within 3 months of the event. Atrial fibrillation, chronic kidney disease, and raised blood pressures may increase the risk of stroke but are not contraindications to tPA administration."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Tissue plasminogen activator (tPA) is used to treat ischemic stroke, but it cannot be given if the patient had a myocardial infarction in the past 3 months or if the patient has recently undergone major surgery. In this case, the patient had a heart attack 6 weeks ago, which is within the 3-month period, and tPA cannot be given. Atrial fibrillation is a risk factor for stroke and needs to be treated, but it is not a contraindication for tPA. Chronic kidney disease and raised blood pressures are risk factors for stroke and need to be managed, but they are not contraindications for tPA."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's history of a recent myocardial infarction makes tPA contraindicated, as it increases the risk of bleeding complications. Atrial fibrillation may actually increase the likelihood of tPA use, as it increases the risk of stroke. Chronic kidney disease and high blood pressure do not necessarily contraindicate tPA use."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's history of myocardial infarction 6 weeks ago is a contraindication for tPA, as it increases the risk of bleeding. Atrial fibrillation itself is not a contraindication. Chronic kidney disease and raised blood pressures are not contraindications but may increase the risk of bleeding, which is a consideration when deciding whether or not to administer tPA."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s recent history of myocardial infarction places him at a higher risk for bleeding complications from tPA treatment. Atrial fibrillation is not a contraindication for tPA treatment, whereas uncontrolled high blood pressure and severe renal impairment are relative contraindications. However, the patient\u2019s blood pressure is not high enough to defer tPA."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's history of MI 6 weeks ago is a contraindication for tPA therapy, as it increases the risk of bleeding. Atrial fibrillation indicates a higher risk of stroke, and raised blood pressures indicate hypertension, but these are not contraindications for tPA. Chronic kidney disease may increase the risk of bleeding, but it is not a contraindication for tPA."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

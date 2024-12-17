@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zrchDrkxgbXNiuSdkNek8reicgzp",
+    "object": "chat.completion",
+    "created": 1680202155,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1604,
+        "completion_tokens": 1138,
+        "total_tokens": 2742
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of headaches and milky discharge from both breasts. Furthermore, her plasma insulin and C-peptide levels are high, and her plasma \u00df-hydroxybutyrate is low, suggesting overproduction of insulin. Insulinomas are the most common pancreatic neuroendocrine tumor and can cause hypoglycemia. Sulfonylurea use, NIPHS, and primary adrenal insufficiency are less likely given the patient\u2019s history and lab values."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s high plasma insulin levels and C-peptide suggest endogenous insulin secretion, ruling out sulfonylurea use. The normal \u00df-hydroxybutyrate and the absence of symptoms for a pituitary or adrenal gland dysfunction rule out primary adrenal insufficiency. The fact that the patient has a milky discharge from both breasts suggests a pituitary adenoma, which could be secreting prolactin and growth hormone in addition to insulin. However, since the insulin levels are significantly elevated, insulinoma is the most likely cause."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s hypoglycemic episode was caused by a high plasma insulin level, which suggests insulinoma, a tumor of the insulin-secreting cells of the pancreas. Sulfonylurea use and NIPHS can also cause hypoglycemia but the lab values do not support these diagnoses. Primary adrenal insufficiency does not cause hypoglycemia."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a low plasma glucose level, high plasma insulin, and high plasma C-peptide, which are indicative of hyperinsulinemia. The most likely cause of hyperinsulinemia is an insulinoma. Additionally, the patient has complained of symptoms consistent with hyperinsulinemia, such as headaches and milk discharge from both breasts. Sulfonylurea use can also cause hypoglycemia but is not mentioned in the patient's history. NIPHS is typically associated with fasting hypoglycemia, which is not seen in this case. Primary adrenal insufficiency does not cause hyperinsulinemia or hypoglycemia."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has symptoms of hypoglycemia, but plasma \u00df-hydroxybutyrate is not low, suggesting that the hypoglycemia is not caused by fasting. The high plasma insulin and C-peptide levels suggest hyperinsulinemia, and the most common cause of hyperinsulinemia leading to hypoglycemia is insulinoma. Sulfonylurea use can also cause hypoglycemia, but there is no history of medication use. NIPHS is a rare cause of hypoglycemia and primary adrenal insufficiency usually presents with hyperpigmentation, fatigue, and weight loss, which are not present in this case."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to PubMed articles for help. The patient\u2019s symptoms and lab values suggest insulinoma, a neuroendocrine tumor that secretes insulin and causes hypoglycemia. Sulfonylurea use and NIPHS can also cause hypoglycemia, but the lab values don\u2019t support it. Primary adrenal insufficiency can cause low blood pressure but not hypoglycemia."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms and lab values suggest that the most likely cause for the patient\u2019s hypoglycemic episode is an insulinoma, a tumor of the pancreas that secretes insulin. The high insulin and C-peptide levels confirm this diagnosis. Sulfonylurea use or NIPHS can cause hypoglycemia but are not as likely in this case. Primary adrenal insufficiency does not cause hypoglycemia."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's symptoms, including headaches, milky discharge from both breasts, and nausea if she goes too long without eating, suggest insulinoma as the most likely cause of her hypoglycemic episode. Sulfonylurea use and NIPHS can also cause hypoglycemia but are less likely in this case. Primary adrenal insufficiency typically presents with hyperpigmentation and electrolyte imbalances, which are not present in this patient. The elevated insulin and C-peptide levels also support the diagnosis of insulinoma."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient presents with symptoms of hypoglycemia, which can be caused by insulinoma, a tumor of pancreatic beta cells that produce excess insulin. The elevated insulin and C-peptide levels support this diagnosis. Sulfonylurea use is also a possible cause of hypoglycemia, but there is no history of the patient taking this medication. NIPHS is a rare condition that can cause hypoglycemia, but it is unlikely given the patient's presentation. Primary adrenal insufficiency would not cause elevated insulin levels."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms suggest hypoglycemia, and the high plasma insulin, C-peptide, and proinsulin levels indicate insulin overproduction, which is consistent with insulinoma. Sulfonylurea use would also lead to increased insulin secretion, but the patient denies taking any medication. NIPHS would have more severe hypoglycemia and decreased or undetectable insulin levels. Primary adrenal insufficiency would not cause hypoglycemia."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

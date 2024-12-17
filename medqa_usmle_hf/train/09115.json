@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zrAmr8eIgKYiwCn3MgSjAojDbzNJ",
+    "object": "chat.completion",
+    "created": 1680200424,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1342,
+        "completion_tokens": 905,
+        "total_tokens": 2247
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The photomicrograph shows granulomatous inflammation with numerous giant cells containing multiple yeast-like organisms. This is suggestive of tuberculosis, and the most likely surface antigen found on the cells is CD14, which is expressed on the surface of monocytes and macrophages, both of which play a role in the immune response to Mycobacterium tuberculosis. CD8 is found on cytotoxic T cells, CD56 is found on natural killer cells, and CD34 is found on hematopoietic stem cells. None of these are specific to tuberculosis."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The photomicrograph shows granulomatous inflammation with numerous histiocytes, indicating tuberculosis. CD14 is a surface antigen found on monocytes and macrophages, which are important in the immune response to tuberculosis. CD8 is found on cytotoxic T cells, CD56 on natural killer cells, and CD34 on hematopoietic stem cells, which are not specific to tuberculosis."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The photomicrograph shows granulomatous inflammation and the arrow points to a macrophage. Among the options, only CD14 is a surface antigen found on macrophages. CD8 is found on cytotoxic T cells, CD56 is found on natural killer cells, and CD34 is found on hematopoietic stem cells."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The photomicrograph shows granulomas, which suggests tuberculosis. CD14 is a marker for macrophages which are involved in the formation of granulomas in tuberculosis infections. None of the other options are markers for macrophages."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The photomicrograph shows granulomas, which are often seen in tuberculosis (TB). Among the options, CD14 is an antigen found on macrophages, which play a pivotal role in TB infection. Therefore, CD14 is the most likely surface antigen to be found on the cells indicated by the arrow. CD8 is found on cytotoxic T cells, CD56 is found on natural killer cells, and CD34 is found on hematopoietic stem cells and endothelial cells, none of which are specifically related to TB."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The photomicrograph shows granulomatous inflammation with histiocytes, suggesting a mycobacterial infection such as tuberculosis. CD14 is a surface antigen found mainly on macrophages and monocytes, which are important in the immune response to mycobacterial infections. CD8 is found on T cells, CD56 on natural killer cells, and CD34 on hematopoietic stem cells."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The photomicrograph shows granulomatous inflammation with giant cells, which is suggestive of tuberculosis. CD14 is a surface antigen found on monocytes and macrophages, which play a major role in the immune response to tuberculosis, making option (C) the correct answer. CD8 is found on cytotoxic T cells, CD56 on natural killer cells, and CD34 on hematopoietic stem cells, but none of these are specific to tuberculosis."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The photomicrograph shows granulomas, which suggest tuberculosis. CD14 is a surface antigen found on monocytes and macrophages, which are involved in the immune response to tuberculosis. CD8 and CD56 are found on natural killer cells and cytotoxic T cells. CD34 is found on hematopoietic stem cells and vascular endothelial cells."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The photomicrograph shown in the question doesn't provide much information for a definitive diagnosis, but in the context of the patient's symptoms, the most likely diagnosis is tuberculosis. CD14 is a surface antigen found on monocytes, macrophages, and dendritic cells, which are involved in the immune response to mycobacterial infections like tuberculosis. Therefore, CD14 is the most likely surface antigen to be found on the cells indicated by the arrow."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The photomicrograph of the biopsy specimen suggests that the patient has tuberculosis. Among the options, CD14 is a surface antigen found on monocytes and macrophages, which are involved in the immune response to tuberculosis."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

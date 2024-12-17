@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zgmHy9zEBFUZSqCjWsxxNJD5l7tx",
+    "object": "chat.completion",
+    "created": 1680160465,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1345,
+        "completion_tokens": 778,
+        "total_tokens": 2123
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows a prolonged QT interval which can be caused by drugs like Sotalol. Lidocaine, Propranolol, and Diltiazem do not typically cause QT prolongation."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows a prolonged QT interval, which is a potential side effect of Sotalol. Lidocaine and Propranolol are not typically associated with QT prolongation. Diltiazem is a calcium channel blocker and is not used for antiarrhythmic prophylaxis."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows a prolonged QT interval, which is a known side effect of Sotalol, making it the most likely culprit for the patient\u2019s current condition. Lidocaine has no effect on QT interval, while Propranolol and Diltiazem can actually shorten the QT interval."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows a prolonged QT interval, which is a known side effect of Sotalol, making it the most likely drug responsible for the patient's condition. Lidocaine, Propranolol, and Diltiazem do not usually cause prolonged QT interval."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows a prolonged QTc, which is a side effect of Sotalol. Lidocaine and Propranolol are not known to cause QT prolongation, and Diltiazem is actually used to treat and prevent supraventricular arrhythmia."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows a prolonged QT interval, which suggests torsades de pointes, a potential side effect of sotalol. Lidocaine, propranolol, and diltiazem do not typically cause QT prolongation."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of ventricular tachycardia and the ECG shows prolonged QT intervals, which are side effects of Sotalol, a class III antiarrhythmic drug commonly used for the treatment of ventricular arrhythmias. Lidocaine is a class Ib antiarrhythmic drug used for the treatment of ventricular arrhythmias but does not cause QT prolongation. Propranolol is a class II antiarrhythmic drug used for supraventricular arrhythmias and does not affect QT intervals. Diltiazem is a calcium channel blocker used for atrial arrhythmias and does not affect QT intervals."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows a prolonged QT interval and widened QRS complex, which are indicative of torsades de pointes, a type of polymorphic ventricular tachycardia. Among the options, only Sotalol, a beta-blocker with class III antiarrhythmic properties, has been associated with torsades de pointes. Lidocaine, Propranolol, and Diltiazem have not been associated with this arrhythmia."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows a prolonged QT interval, which can be caused by medications such as antiarrhythmic drugs. Among the options, only Sotalol is known to prolong the QT interval and can cause torsades de pointes, a type of ventricular tachycardia. Lidocaine, Propranolol, and Diltiazem do not typically affect the QT interval."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ECG shows a prolonged QT interval, which is a known side effect of Sotalol, a class III antiarrhythmic drug. Lidocaine, Propranolol, and Diltiazem are not associated with QT prolongation."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

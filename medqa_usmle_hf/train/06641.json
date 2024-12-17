@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zmz1ynJFOjI8XTVO8gNsZpqCMIuL",
+    "object": "chat.completion",
+    "created": 1680184319,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1331,
+        "completion_tokens": 916,
+        "total_tokens": 2247
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. CD3 is present on all T cells and is necessary for T cell receptor signaling, so it is the most likely to be present on the cell surface at this stage. CD10 is a marker for B cells, CD32 is a marker for some types of immune cells but not T cells, and CD44 is a marker for memory T cells."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. CD3 is a protein complex involved in T cell activation and is present on the cell surface of all T cells, including double-positive T cells. CD10 is primarily expressed on B cells and some immature T cells, but not on double-positive T cells. CD32 is a receptor for the Fc region of IgG antibodies and is not involved in T cell development. CD44 is expressed on many cell types, including T cells, but its expression is not specific to double-positive T cells."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. CD3 is a protein complex that is essential for T cell signal transduction and is present on the surface of all T cells, including double-positive T cells. CD10 is a marker for immature B cells and is not expressed on T cells. CD32 is a receptor for the Fc portion of IgG and is not typically expressed on T cells. CD44 is a cell adhesion molecule commonly expressed on T cells but is not as specific to T cells as CD3."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. CD3 is present on the surface of mature T cells and is involved in T cell receptor signaling. CD10 is a marker for early B cell development, CD32 is a marker for Fc receptors, and CD44 is a marker for lymphocyte homing and activation. None of these markers are associated with the stages of T cell development described in the question, making A the correct answer."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. CD3 is a marker of T cells and is present on immature T cells in the thymus, including double-negative and double-positive cells. CD10 is a marker of B cells and is not present on T cells. CD32 is a marker of some types of immune cells, but not T cells. CD44 is a marker of activated T cells and is not likely to be present on immature T cells in the thymus."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. CD3 is a protein complex that is essential for T cell development and function, and is present on T cell surfaces throughout their development. CD10 is primarily expressed on B cells and some immature T cells. CD32 is a receptor for antibodies and is not involved in T cell development. CD44 is involved in cell adhesion and migration, but is not specifically associated with T cell development. Therefore, the most likely CD molecule to be present on the surface of double-positive T cells is CD3."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. CD3 is a coreceptor that is involved in T cell activation, making it likely to be present on the surface of T cells at this stage. CD10 is expressed on early B cells and some types of leukemia. CD32 is a low-affinity IgG Fc receptor found on some immune cells. CD44 is a cell adhesion molecule found on a wide variety of cells. None of these options are specifically associated with T cell development in the thymus."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. CD3 is an important T-cell surface marker that is involved in T-cell activation and signaling. While CD10, CD32, and CD44 are all important surface markers in various cell types, they are not typically expressed on T cells during their development in the thymus. Therefore, the most likely CD molecule to be present on the cell surface of double-positive T cells during their development in the thymus is CD3."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. CD3 is a common marker for T cells and is present on the surface of all mature T cells, including double-positive T cells. CD10 is not commonly expressed on T cells, while CD32 and CD44 are not specific to T cells."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. CD3 is a signaling molecule that is present on all mature T cells, including double-positive T cells. CD10 is a marker for early B cells and is not present on T cells. CD32 and CD44 are also not specific markers for T cells."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

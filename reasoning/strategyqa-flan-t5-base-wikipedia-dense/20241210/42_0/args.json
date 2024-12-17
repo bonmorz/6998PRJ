@@ -1,0 +1,20 @@
+{
+    "knowledge_base": "wikipedia",
+    "retriever_type": "dense",
+    "retriever_model": "colbert",
+    "checkpoint_path": "./save/flan-t5-base/strategyqa/kard_wikipedia",
+    "dataset": "strategyqa",
+    "lm_type": "t5",
+    "n_docs": 1,
+    "n_cands": -1,
+    "ground_truth_doc": false,
+    "from_dense": false,
+    "greedy": false,
+    "fold": "test",
+    "dense_retriever_path": "/home/rl/KARD/save/trained_reranker/save_best/strategyqa_best/model",
+    "seed": 42,
+    "self_consistency": 5,
+    "max_doc": -1,
+    "reasoner_base": "flan-t5-base",
+    "device": "cuda:0"
+}

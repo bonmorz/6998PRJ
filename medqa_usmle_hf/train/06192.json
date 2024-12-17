@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zmFzJjarznivOs9s3hkUu1Iz4M7Y",
+    "object": "chat.completion",
+    "created": 1680181527,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1362,
+        "completion_tokens": 746,
+        "total_tokens": 2108
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ragged-appearing muscle fibers in the patient's muscle biopsy suggest a mitochondrial disorder. This disorder is maternally inherited, and thus genetic analysis of the patient's son is most likely to show heterogenous mitochondrial DNA. Option A is not applicable as it refers to imprinting disorders, option C is not applicable as it refers to DNA repair disorders, and option D is not applicable as it refers to somatic mutations."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms and biopsy findings suggest mitochondrial myopathy, which is usually caused by heterogenous mitochondrial DNA mutations. Therefore, genetic analysis of the patient's son is most likely to show heterogenous mitochondrial DNA. All other options do not fit with the diagnosis of mitochondrial myopathy."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms and the findings from the muscle biopsy suggest mitochondrial disease. Mitochondrial DNA is inherited solely from the mother, so the patient's children may have inherited the disease. Heterogenous mitochondrial DNA is common in mitochondrial disease. The other options are not typically associated with mitochondrial disease."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's symptoms suggest mitochondrial disease, which can be caused by heterogenous mitochondrial DNA. Option A, silenced paternal gene copy, does not make sense in this context as there is no information on the patient's father. Option C, mutation in DNA repair gene, is unlikely as there is no indication of DNA damage. Option D, genetically distinct cell lines, is also unlikely as it does not explain the patient's and her children's shared symptoms."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms of the patient and her children suggest a mitochondrial disorder. The ragged-appearing muscle fibers on biopsy and lactic acidosis also support this diagnosis. Mitochondrial DNA mutations are maternally inherited, so genetic analysis of the son is most likely to show heterogenous mitochondrial DNA."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The ragged-appearing muscle fibers and the family history of seizures and muscle weakness suggest mitochondrial disease. Mitochondrial DNA is inherited from the mother, so the patient's son is most likely to have heterogenous mitochondrial DNA. Options A, C, and D are not associated with mitochondrial disease."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's symptoms and the ragged-appearing muscle fibers suggest mitochondrial disease, which can be passed on maternally. Therefore, the most likely answer is heterogenous mitochondrial DNA. The other options are not consistent with this type of disease."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms and muscle biopsy findings suggest mitochondrial myopathy, which is maternally inherited. Hence, the most likely finding in the genetic analysis of the patient's son is heterogenous mitochondrial DNA. Other options are not associated with mitochondrial myopathy."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's symptoms suggest mitochondrial myopathy, and since mitochondrial DNA is inherited maternally, there is a high likelihood that the patient's son will also have heterogenous mitochondrial DNA. Silenced paternal gene copy, mutation in DNA repair gene, and genetically distinct cell lines are not related to mitochondrial myopathy."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms and ragged-appearing muscle fibers suggest mitochondrial myopathy. Mitochondrial DNA is inherited from the mother, so it is likely that the patient and her children have heterogenous mitochondrial DNA. Silenced paternal gene copy and mutation in DNA repair gene are unlikely, as mitochondrial myopathy is a mitochondrial disorder. Genetically distinct cell lines are also unlikely in this case."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

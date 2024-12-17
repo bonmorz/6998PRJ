@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zifamNVRxcPN2MjN2POxffUPpGnm",
+    "object": "chat.completion",
+    "created": 1680167738,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1389,
+        "completion_tokens": 822,
+        "total_tokens": 2211
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of deep vein thrombosis and had surgery 3 weeks ago, increasing the risk of pulmonary thromboembolism. The symptoms also suggest a pulmonary issue, and normal chest radiography does not rule out pulmonary thromboembolism, as it may take several hours to become visible on imaging. Pneumonia and myocardial infarction do not fit the patient\u2019s history and symptoms."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s history of DVT, recent surgery, and symptoms of shortness of breath and chest pain strongly suggest pulmonary thromboembolism (PTE). The normal chest radiography indicates that it is less likely to be pneumonia. Myocardial infarction does not typically present with shortness of breath as a primary symptom. There is no indication of exacerbation of chronic lung disease."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of deep vein thrombosis, recent surgery, and presents with shortness of breath and chest pain, suggesting a pulmonary thromboembolism. The normal chest radiography can be misleading as many patients with a pulmonary embolism will have normal findings on chest radiography."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of deep vein thrombosis, recent surgery, and symptoms of shortness of breath and chest pain without any other accompanying symptoms. All of these suggest pulmonary thromboembolism as the most likely diagnosis."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s history of a prior deep vein thrombosis, recent surgery, and sudden onset of shortness of breath and chest pain suggests the most likely diagnosis is pulmonary thromboembolism. Chest radiography being within normal limits rules out pneumonia and exacerbation of chronic lung disease. There are no cardiac exam findings to suggest myocardial infarction."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms of shortness of breath and chest pain, along with a history of deep vein thrombosis and recent surgery, suggest a pulmonary thromboembolism as the most likely diagnosis. None of the other options fully explain the symptoms and history of the patient."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of DVT and recent surgery, which significantly increases the risk of developing pulmonary thromboembolism. Shortness of breath and chest pain are the common symptoms of pulmonary thromboembolism. The absence of fever and expectoration rules out pneumonia, and the absence of significant findings on physical exam and normal chest radiography argues against an exacerbation of chronic lung disease. While myocardial infarction can cause chest pain and tachycardia, the absence of ECG changes and normal vitals suggest that it is less likely than pulmonary thromboembolism."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms of shortness of breath and chest pain are indicative of a possible pulmonary thromboembolism, especially given his history of DVT and recent surgery. The other options are not supported by the information given in the question. Chest radiography being normal furthers the possibility of a pulmonary thromboembolism."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The presence of shortness of breath and chest pain along with a history of DVT and recent surgery with prophylactic anticoagulation suggests pulmonary thromboembolism. Normal chest radiography does not rule out this diagnosis. None of the other options are supported by the given information."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of deep vein thrombosis and recent hip surgery, making pulmonary thromboembolism the most likely diagnosis in this case. The symptoms of shortness of breath and chest pain are also indicative of this condition. The normal chest radiography does not rule out pulmonary embolism, as it may not show any abnormalities in some cases."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

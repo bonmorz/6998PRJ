@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zppjYoNkSCfxwwOrqVlByAIBgUl5",
+    "object": "chat.completion",
+    "created": 1680195275,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1648,
+        "completion_tokens": 796,
+        "total_tokens": 2444
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The platelet count of 95,000/mm3 is a contraindication to IV tPA due to the risk of bleeding. Age and prior MI are not contraindications, although the presence of high blood pressure may require additional measures to control it."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Platelet count less than 100,000/mm3 is a contraindication to IV tPA due to the increased risk of bleeding. Blood pressure and age are not contraindications but should be managed carefully. Previous myocardial infarction is a consideration but not a contraindication."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s platelet count is below the recommended level for treatment with tPA, which carries a risk of bleeding. Elevated blood pressure is not a contraindication for tPA, but it should be managed and controlled to reduce the risk of bleeding. Age and history of previous MI are not contraindications for tPA."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. IV tPA is contraindicated in patients with a platelet count <100,000/mm3. The other options are not contraindications to IV tPA, although the elevated blood pressure may need to be managed before administration of tPA."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The contraindication for tPA in this case is the low platelet count, which puts the patient at a high risk of bleeding. Elevated blood pressure poses a relative contraindication, but can be managed with appropriate medication. Age and history of MI are not absolute contraindications for tPA."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s platelet count can be a contraindication to IV tPA, as it is below the normal range. Elevated blood pressure is a relative contraindication, but can be managed with medication. Age and previous myocardial infarction are not absolute contraindications to IV tPA."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has an acute ischemic stroke, but the platelet count of 95,000/mm3 is a contraindication to IV tPA. The recommended platelet count for IV tPA administration is at least 100,000/mm3. The other options are not absolute contraindications to IV tPA but may need to be managed or addressed before administration, such as blood pressure control."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a left MCA ischemic stroke, which is a potential indication for IV tPA treatment. However, a platelet count <100,000/mm3 is a contraindication for tPA due to the risk of bleeding. The patient's age, blood pressure, and history of MI are not contraindications for tPA."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. According to the American Stroke Association guidelines, a platelet count below 100,000/mm3 is a contraindication to tPA administration. All other options are not absolute contraindications. The blood pressure can be lowered before tPA administration, age alone is not a contraindication, and history of MI is not a contraindication unless the patient has had a recent cardiac event."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s platelet count of 95,000/mm3 is a contraindication to IV tPA, as it increases the risk of bleeding. The other options do not contraindicate tPA administration, although high blood pressure may need to be controlled before tPA is given. Age above 80 years, recent myocardial infarction, and mild to moderate stroke symptoms are relative contraindications, but not absolute contraindications."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

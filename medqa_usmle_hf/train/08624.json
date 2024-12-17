@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zqLOTh37firqAaOgUkxWqXV3SyXo",
+    "object": "chat.completion",
+    "created": 1680197238,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1281,
+        "completion_tokens": 607,
+        "total_tokens": 1888
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Nimodipine is a calcium channel blocker used specifically for the treatment of subarachnoid hemorrhage. It improves outcome and reduces the risk of delayed cerebral ischemia. It is not used for Thromboembolic stroke, Epidural hematoma, or Subdural hematoma."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Nimodipine is a calcium channel blocker that is specifically used to prevent cerebral vasospasm after subarachnoid hemorrhage. Therefore, the correct answer is (D) subarachnoid hemorrhage."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Nimodipine is a calcium channel blocker used to prevent cerebral vasospasm after subarachnoid hemorrhage. It does not have benefit in thromboembolic stroke, epidural hematoma, or subdural hematoma."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Nimodipine is used to treat subarachnoid hemorrhage by preventing cerebral vasospasm, which can lead to strokes. It has no role in thromboembolic stroke, epidural hematoma, or subdural hematoma."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Nimodipine is a calcium channel blocker used for the treatment of subarachnoid hemorrhage. Thromboembolic stroke is typically treated with anticoagulants or antiplatelets. Epidural and subdural hematomas may require surgical intervention."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Nimodipine is a calcium channel blocker that is used to prevent vasospasm following subarachnoid hemorrhage. Therefore, the correct answer is (D). Thromboembolic stroke, epidural hematoma, and subdural hematoma are not typically treated with nimodipine."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Nimodipine is a calcium channel blocker that is specifically used in the treatment of subarachnoid hemorrhage to prevent cerebral vasospasm. It is not used in the other options."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Nimodipine is a medication used to treat cerebral vasospasm following a subarachnoid hemorrhage. Therefore, the patient likely experienced a subarachnoid hemorrhage."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Nimodipine is a calcium channel blocker used specifically to prevent cerebral vasospasm and improve outcomes following subarachnoid hemorrhage. Therefore, the most likely pathology that this patient has is subarachnoid hemorrhage. Thromboembolic stroke and hematomas do not have a clear indication for nimodipine."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Nimodipine is a calcium channel blocker used to prevent vasospasm after subarachnoid hemorrhage. It has no benefit in the other conditions listed."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

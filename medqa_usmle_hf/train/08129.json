@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zpbcLDqqPbs2lEpnAZmqOHXOeFXo",
+    "object": "chat.completion",
+    "created": 1680194400,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1374,
+        "completion_tokens": 929,
+        "total_tokens": 2303
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to the Advanced Trauma Life Support (ATLS) guidelines for help. The patient has signs of shock and unable to obtain IV access, therefore, intraosseous access should be obtained for the administration of fluids and medications. Oral fluids are not appropriate for a patient in shock. Exploratory laparotomy is not indicated at this point without further evaluation. Reattempting IV access is not likely to be successful and may delay treatment."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is hemodynamically unstable and IV access is unable to be obtained, making intraosseus access the best option for rapid fluid and medication administration. Exploratory laparotomy would be indicated if there were signs of intra-abdominal bleeding or trauma, but there is no indication of this at present. Administering oral fluids is not appropriate in a patient who is incoherent and has unstable vital signs. Reattempting IV access is not likely to be successful and will waste valuable time."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has significant trauma and is hypotensive with difficulty obtaining IV access, making intraosseous access the best option for fluid resuscitation. Oral fluids are not appropriate for a patient with significant trauma and intravenous access has already been attempted without success. Exploratory laparotomy would be considered if the patient's condition deteriorates or imaging reveals significant abdominal injuries."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is hypotensive and unable to obtain IV access, making intraosseous access the best next step in management for fluid resuscitation. Oral fluids are not appropriate for a patient in this condition. Exploratory laparotomy may be necessary later, but not immediately. Reattempting IV access is unlikely to be successful and time-consuming."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's unstable vital signs and inability to obtain IV access suggest a need for rapid administration of fluids and medications. Intraosseous access is a reliable and relatively quick method of getting access in an emergency situation. Oral fluids would not be appropriate in this case as the patient is unable to swallow and IV access cannot be obtained. Exploratory laparotomy may be necessary depending on further evaluation but should not be the first step in management. Reattempting IV access should be attempted, but if unsuccessful, intraosseous access should be considered."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's condition requires immediate fluid resuscitation, but since IV access cannot be obtained, the next best option is to obtain intraosseous access. Oral fluids will not be effective in this situation, and exploratory laparotomy is not indicated at this point. Reattempting intravenous access may waste valuable time, and intraosseous access is more reliable in this situation."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has signs of shock, and IV access is unable to be obtained, so the next best step is to obtain intraosseous access for fluid resuscitation. Administering oral fluids is not appropriate in this situation, and exploratory laparotomy should not be performed until the patient is stabilized. Reattempting intravenous access may not be successful and could delay necessary resuscitation."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is in shock with a low blood pressure and a fast heart rate, and the inability to obtain IV access suggests that intraosseus access should be obtained for fluid resuscitation. Oral fluids are not suitable for a patient in shock. Exploratory laparotomy is premature before stabilizing the patient's hemodynamics. Reattempting IV access may cause further harm and delays fluid resuscitation."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's condition is critical and IV access cannot be obtained, therefore obtaining intraosseous access is the best next step in management to provide fluids and medications. Administering oral fluids is not appropriate in a patient with potential internal injuries, and exploratory laparotomy is not indicated without further diagnostic testing. Reattempting IV access may delay necessary treatment."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. IV access cannot be obtained, so intraosseus access is the next best step to administer necessary fluids and medications. Oral fluids are not appropriate in this emergent situation. Exploratory laparotomy may be necessary later, but immediate stabilization of the patient is the priority. Reattempting intravenous access should not delay the necessary treatment."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

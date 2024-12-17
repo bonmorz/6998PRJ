@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zqaJtMFSthhURrBdgOMgfB1UPl0J",
+    "object": "chat.completion",
+    "created": 1680198163,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1354,
+        "completion_tokens": 973,
+        "total_tokens": 2327
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Mycobacterium avium-intracellulare is a type of bacterial infection that can affect people with weakened immune systems, such as HIV patients. Prophylaxis is recommended for patients with CD4 counts below 50 cells/microliter. Therefore, only option (B) meets this criterion with a CD4 count of 20 cells/microliter. Options (A), (C), and (D) have higher CD4 counts and/or undetectable viral loads which suggest lower risk for mycobacterium avium-intracellulare."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to guidelines from the Centers for Disease Control and Prevention and other medical sources for help. Prophylaxis against mycobacterium avium-intracellulare (MAI) is recommended for HIV-positive patients with CD4 counts less than 50 cells/microliter. Option B is the only patient with a CD4 count less than 50 cells/microliter, making them the most likely candidate for MAI prophylaxis. Option A has a CD4 count above the threshold for prophylaxis, while options C and D have viral loads that are undetectable or low, indicating that their immune systems are better equipped to fight off potential infections."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to UpToDate, an evidence-based clinical decision support resource, for help. Mycobacterium avium complex (MAC) prophylaxis is recommended for patients with CD4 counts <50 cells/microliter. In this case, only option B fits this criteria, thus prophylaxis should be recommended for this patient. The other options have higher CD4 counts and/or undetectable viral loads, which puts them at lower risk for MAC infection."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to the CDC guidelines for assistance. Prophylaxis against Mycobacterium avium-intracellulare is recommended for HIV-infected adults with a CD4 count < 50 cells/microliter or with CD4 count between 50-100 cells/microliter with additional risk factors. Option (B) is the only patient who meets the criteria for prophylaxis, with a CD4 count of 20 cells/microliter. All other options have CD4 counts above 50 cells/microliter or have an undetectable viral load, which generally decreases the risk for opportunistic infections."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to UpToDate for help. Prophylaxis against mycobacterium avium-intracellulare is recommended when CD4 counts are less than 50 cells/microliter or if CD4 counts drop below 50 cells/microliter, regardless of viral load. Among the options given, only option B has a CD4 count less than 50 cells/microliter, making it the appropriate patient to recommend prophylaxis for."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to CDC guidelines for help. Prophylaxis against mycobacterium avium-intracellulare is recommended for patients with a CD4 count below 50 cells/microliter. The only patient in the options that meets this criteria is option (B). All other patients have CD4 counts above 50 cells/microliter."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Prophylaxis for mycobacterium avium-intracellulare is recommended for patients with CD4 counts below 50 cells/microliter. Only option (B) falls under this category. The viral load being <50 copies/mL is also a good prognostic factor but does not affect the need for prophylaxis."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to the Centers for Disease Control and Prevention (CDC) guidelines for prophylaxis against mycobacterium avium-intracellulare in HIV-infected individuals. According to the guidelines, prophylaxis should be considered in individuals with CD4 counts below 50 cells/microliter. Option B is the only patient with a CD4 count below 50, and therefore, prophylaxis should be recommended for this patient."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to CDC guidelines on prophylaxis against mycobacterium avium-intracellulare. Prophylaxis is recommended for HIV positive patients with CD4 counts < 50 cells/microliter. Option B is the only patient with a CD4 count < 50 cells/microliter, making them the candidate for prophylaxis."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to guidelines from the Centers for Disease Control and Prevention for help. Prophylaxis against mycobacterium avium-intracellulare should be considered for patients with CD4 counts less than 50 cells/microliter, which applies only to option (B) in the given choices."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

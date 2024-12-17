@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6ziBNMMQiEcm60cTpdzpNJBJXCFyF",
+    "object": "chat.completion",
+    "created": 1680165865,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1415,
+        "completion_tokens": 624,
+        "total_tokens": 2039
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a low pretest probability of coronary artery disease based on her symptoms, lack of known risk factors and physical examination findings. Therefore, no further testing is needed."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms are not consistent with angina and the physical examination and ECG are normal. Therefore, no further testing is needed for evaluation of coronary artery disease."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's symptoms are suggestive of non-cardiac chest pain and she has no other risk factors for coronary artery disease. Therefore, no further testing is needed. Option A and D are invasive and option B involves exposure to radiation, which should be avoided if possible."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms are not consistent with angina, and her risk factors for coronary artery disease are minimal. Therefore, no further testing is needed at this time."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's symptoms are not suggestive of acute coronary syndrome, and her risk factors are only hyperlipidemia. The absence of abnormalities on physical examination and ECG do not warrant further testing for coronary artery disease. Therefore, the most appropriate next step is no further testing needed."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms are not suggestive of angina or myocardial infarction, and her risk factors are not significant enough to warrant further testing at this time. No further testing may be needed, but lifestyle modification and control of hyperlipidemia should be addressed."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's symptoms and history do not suggest a high likelihood of coronary artery disease, and her ECG shows sinus tachycardia but no ischemic changes. Therefore, no further testing may be needed at this time. The other options may be considered if there is a higher suspicion for coronary artery disease."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms are not consistent with typical angina. She does not have any risk factors for coronary artery disease other than hyperlipidemia, which is well controlled with simvastatin. Therefore, no further testing may be needed as the probability of coronary artery disease is low in this patient."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's symptoms are not suggestive of stable angina or acute coronary syndrome, and her hyperlipidemia is being treated, so no further testing to evaluate for coronary artery disease is needed at this time. The other options would be indicated if there were higher risk factors or suspicion of coronary artery disease."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms suggest possible angina, but she has no risk factors for coronary artery disease, and her ECG is normal other than sinus tachycardia. Therefore, no further testing is needed at this time. Options A, B, and D are all additional testing options for coronary artery disease but are not indicated without further risk factors or abnormal findings."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

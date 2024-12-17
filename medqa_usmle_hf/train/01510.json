@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zehjomJVFvwMx37ExhtKctuaMkZK",
+    "object": "chat.completion",
+    "created": 1680152495,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1381,
+        "completion_tokens": 723,
+        "total_tokens": 2104
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms and laboratory results suggest a diagnosis of severe combined immunodeficiency (SCID), which is characterized by decreased circulating T cells. The absence of tonsils and thymic shadow also support this diagnosis. There is no indication for parathyroid hormone, IgE, or neutrophil levels based on the patient\u2019s presentation."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The decreased breath sounds in the left lower lobe and absent thymic shadow suggest DiGeorge syndrome, which is characterized by decreased circulating T cells. None of the other options are associated with this syndrome."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms and laboratory studies indicate a diagnosis of severe combined immunodeficiency (SCID), which is characterized by decreased circulating T cells. Absent thymic shadow on chest x-ray is also a classic finding in SCID. None of the other options are typically associated with SCID."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient's symptoms suggest a possible diagnosis of DiGeorge syndrome, which is characterized by thymic hypoplasia, recurrent infections, and poor growth. The absence of a thymic shadow on the chest x-ray confirms this suspicion. DiGeorge syndrome is associated with decreased circulating T cells, so option (C) is the correct answer. Options (A), (B), and (D) are not associated with DiGeorge syndrome."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The decreased thymic shadow and multiple infections suggest the patient has a severe combined immunodeficiency (SCID), which is commonly caused by a lack of T cells. The other options do not correlate with SCID."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The absence of thymic shadow, recurrent infections, and low height and weight percentiles suggest a primary immunodeficiency disorder. Increased deoxyadenosine concentrations in both serum and urine confirm adenosine deaminase deficiency, which is a type of severe combined immunodeficiency disorder characterized by decreased circulating T cells. The other options do not fit the clinical presentation or laboratory findings."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms and laboratory findings suggest severe combined immunodeficiency disorder (SCID), which leads to decreased circulating T cells. Absence of the thymic shadow on an X-ray is also consistent with this diagnosis. None of the other options are typically associated with SCID."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms and findings suggest the patient has DiGeorge syndrome, which is caused by a defect in the development of the thymus and parathyroid glands. Therefore, decreased circulating T cells caused by the thymic defect is the most likely finding. The other options are not associated with DiGeorge syndrome."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms suggest DiGeorge Syndrome, which is characterized by thymic hypoplasia and reduced number of T-cells. Decreased circulating parathyroid hormone is associated with hypoparathyroidism, while increased circulating IgE and increased circulating neutrophils are not associated with DiGeorge Syndrome."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms, specifically the multiple infections and low height and weight, suggest severe combined immunodeficiency (SCID), which is characterized by a decrease in circulating T cells. The absence of a thymic shadow on x-ray also supports this diagnosis. The other options are not consistent with the presentation of SCID."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

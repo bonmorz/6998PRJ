@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zldbvaReVBL6bQGMTRzYMVrWR2Jj",
+    "object": "chat.completion",
+    "created": 1680179147,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1389,
+        "completion_tokens": 919,
+        "total_tokens": 2308
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. In this case, the closest match would be the donor with the same HLA genotype as the patient, which is donor A with HLA genotype A7/A5, B8/B2, C3/C8. Donor D and B have mismatches at multiple loci, while donor E has a mismatch at the B locus."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. HLA genotype determines the success rate of a renal transplant. Donor A has the same alleles at two of the three loci, making it the closest match compared to the other donors. Donor D has a different allele at each locus, making it the least likely match. Donor E has different alleles at two of the three loci. Donor B has different alleles at all three loci."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The closest match is determined by the number of matching antigens. Donor A matches the patient at 4 out of 6 antigens (A7, B2, C3), while Donor D and Donor E match at 3 out of 6 antigens and Donor B matches at 2 out of 6 antigens. Therefore, Donor A is the closest match."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. HLA genotyping involves identifying the alleles inherited from both parents for the HLA-A, HLA-B, and HLA-C loci. The closest match would be the donor with the fewest differences in HLA alleles compared to the patient. In this case, the patient has A7/A5, B2/B9, and C8/C3, so the closest match would be Donor A with A7/A5, B8/B2, and C3/C8 which differs only in one allele at the HLA-B locus. The other donors have more differences in their HLA genotypes compared to the patient."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. HLA genes are inherited from both parents, and a closer match between donor and recipient decreases the risk of rejection. Looking at each locus, the closest match for A is the donor with A7, which matches the patient's maternal allele. The closest match for B is the donor with B2, which matches the patient's paternal allele. And the closest match for C is the donor with C3, which matches the patient's maternal allele. Therefore, the closest match is donor A with A7/A5, B8/B2, and C3/C8."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The HLA genotype of the patient shows A7/A5, B2/B9, and C8/C3. Donor A has the same maternal alleles (A7, C3) and paternal alleles (A5, C8) as the patient, making them the closest match. Donor D has the most mismatched alleles, and Donor E has a different allele at all three loci. Donor B has different alleles at two out of three loci."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The closest match would be the donor with the most matching alleles. Donor A matches 2 out of 3 alleles, while Donor D matches only 1 out of 3 alleles, Donor E matches only 1 out of 3 alleles, and Donor B matches none of the alleles. Therefore, Donor A would be the closest match."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The closer the match between donor and recipient HLA profiles, the higher the success rate of the transplant. In this case, the closest match would be Donor A, as they share the same HLA genotype for two of the three loci. Donor B has a completely different genotype and Donor D and E only match the patient on one of the three loci."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The closest match is the donor with the same HLA genotype. Donor A has the same alleles for A and C, and only one allele difference at B locus, while all other options have at least two allele differences at multiple loci."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. HLA matching is based on the number of matching alleles at each locus. Donor A matches on all 3 loci, while the other donors only match on 1 or 2 loci. Therefore, Donor A is the closest match."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

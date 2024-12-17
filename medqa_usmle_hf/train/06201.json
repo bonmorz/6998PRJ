@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zmGm7mjFKf0xQdUS61VZpjs821eB",
+    "object": "chat.completion",
+    "created": 1680181576,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1334,
+        "completion_tokens": 856,
+        "total_tokens": 2190
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to the Mayo Clinic website for help. Aminoglycosides are usually given for surgical prophylaxis due to their effectiveness against Gram-negative bacteria commonly encountered in surgical site infections. However, they are also known to be susceptible to enzymatic inactivation, making them less effective in resistant strains of bacteria. This scenario suggests that the patient was most likely given an aminoglycoside, which was then inactivated by the causal organism."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptom of dysuria and flank pain suggests a urinary tract infection, which is a common complication following surgery. Aminoglycosides are commonly used to treat urinary tract infections, but the organism produced an enzyme that inactivates the antibiotic via phosphorylation. This suggests that the organism may be resistant to aminoglycosides, making it the most likely class of antibiotics administered."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms suggest a urinary tract infection, and aminoglycosides are commonly used to treat this infection. However, the information that the causal organism produces an enzyme that inactivates the antibiotic via phosphorylation suggests that the antibiotic is likely to be gentamicin, which is a type of aminoglycoside."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The fact that the causal organism produces an enzyme that inactivates the antibiotic via phosphorylation suggests that the antibiotic administered was an aminoglycoside. Aminoglycosides can be inactivated via enzymatic modification. Glycopeptides like vancomycin are not typically used for urinary tract infections, which present with dysuria and flank pain. Fluoroquinolones may be used for urinary tract infections but are not typically administered prophylactically for joint replacement surgeries. Macrolides like erythromycin are not typically used for urinary tract infections either."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms suggest a urinary tract infection, and a postoperative infection is a common complication of hip replacement surgery. The causal organism inactivating the antibiotic via phosphorylation suggests the antibiotic was an aminoglycoside, which is known to be susceptible to enzymatic inactivation."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms suggest a urinary tract infection or pyelonephritis, and aminoglycosides are often used to treat bacterial infections. However, some bacteria produce enzymes that can inactivate aminoglycosides, which may lead to treatment failure."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Aminoglycosides are often used in the post-operative period for prophylaxis and treatment of infections. They are known to be susceptible to inactivation by bacterial enzymes via phosphorylation. Glycopeptides, fluoroquinolones, and macrolides are not known to be susceptible to this type of inactivation."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Dysuria, flank pain, fever, and tenderness in the costovertebral area suggest urinary tract infection and/or pyelonephritis, which indicates that the patient may have received an aminoglycoside antibiotic. Aminoglycosides are commonly used for the treatment of UTIs and pyelonephritis, and their efficacy can be reduced by the production of enzymes that inactivate them via phosphorylation."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms suggest a urinary tract infection or pyelonephritis, and the inability to improve with antibiotics indicates a resistance to the antibiotic. Aminoglycosides are known to be inactivated by phosphorylation, making it the most likely class of antibiotics that was administered."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Marked tenderness in the right costovertebral area and development of dysuria, flank pain, and fever suggest postoperative pyelonephritis. Aminoglycosides are commonly used to treat pyelonephritis but their effectiveness can be reduced by enzymatic modification. The description matches the symptoms of a drug-resistant strain, and aminoglycosides are a common class of antibiotics that are often inactivated by phosphorylation."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

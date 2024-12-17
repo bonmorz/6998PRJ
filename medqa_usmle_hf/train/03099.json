@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zh8z7hkplfms5pCBmMZU3PiQj2Pm",
+    "object": "chat.completion",
+    "created": 1680161873,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1361,
+        "completion_tokens": 717,
+        "total_tokens": 2078
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms of tingling and numbness over the lips and face, along with reduced strength in the lower extremities, suggest the most likely cause is Tetrodotoxin, which is known to block voltage-gated fast sodium channels. Latrotoxin causes muscle rigidity and spasms, Okadaic acid causes gastrointestinal symptoms, and Scombrotoxin causes flushing and hives."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms of tingling and numbness over the face and reduced strength in the lower extremities suggest neurotoxicity. Among the options, only Tetrodotoxin is known to block voltage-gated fast sodium channels and cause neurotoxicity."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms, including tingling and numbness and reduced strength in the lower extremities, suggest Tetrodotoxin poisoning. Tetrodotoxin blocks voltage-gated fast sodium channels which can lead to symptoms such as paralysis, hypotension, and respiratory distress."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms of tingling and numbness and reduced strength in the lower extremities suggest neurological effects, and tetrodotoxin is known to block voltage-gated fast sodium channels, causing these symptoms. The other options do not affect fast sodium channels."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient\u2019s symptoms, including tingling and numbness over the lips and face and reduced strength in the lower extremities, suggest the involvement of a neurotoxin. Among the options, only Tetrodotoxin is known to block voltage-gated fast sodium channels and cause these symptoms. The others are associated with different mechanisms of action and symptoms."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms of tingling and numbness over the lips and face, vomiting, diarrhea, and reduced strength in the lower extremities suggest the toxin blocks voltage-gated fast sodium channels. Among the options, only Tetrodotoxin is known to have this mechanism of action."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms of tingling and numbness over the lips and face followed by vomiting, diarrhea, and abdominal pain suggest the most likely cause is Tetrodotoxin, which is commonly found in pufferfish and blocks voltage-gated fast sodium channels."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms of tingling and numbness suggest neurotoxicity, and of the options, only Tetrodotoxin is known to block voltage-gated fast sodium channels. Scombrotoxin causes flushing and sweating, Okadaic acid causes vomiting and diarrhea, and Latrotoxin causes muscle cramps and pain."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms of tingling and numbness over the lips and face, as well as reduced strength in the lower extremities, suggest neurological symptoms. Tetrodotoxin, found in pufferfish, is known to block voltage-gated fast sodium channels and can cause these symptoms. None of the other toxins listed match the patient's symptoms."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The symptoms of gastrointestinal distress and neurological symptoms, such as reduced strength and numbness, along with the confirmation of a toxin that blocks voltage-gated fast sodium channels, suggest the most likely cause is Tetrodotoxin, which is found in certain types of seafood. All other options do not fit with the symptoms described."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zn4mO8nUE2NUxhFLsWgSSK6lH8RS",
+    "object": "chat.completion",
+    "created": 1680184676,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1314,
+        "completion_tokens": 1296,
+        "total_tokens": 2610
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to medical genetics textbooks for help. Achondroplasia is an autosomal dominant disorder, caused by a mutation in the FGFR3 gene. The chances of an affected child (homozygous for the mutation) are 25%, while the chances of an unaffected child (heterozygous for the mutation) are 50%. Therefore, the chances of a pregnancy resulting in an unaffected offspring are 33%."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to a genetics textbook for help. Achondroplasia is an autosomal dominant disorder, meaning that an affected individual has a 50% chance of passing on the mutant gene to each of their offspring. If both parents have achondroplasia, their alleles are both dominant and there is a 25% chance that their child will inherit two copies of the mutant gene and have the disorder, a 50% chance that their child will inherit one copy of the mutant gene and have the disorder, and a 25% chance that their child will inherit two normal copies of the gene and not have the disorder. Therefore, the chance of having a child of average height is 25% (unaffected individuals)."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Achondroplasia is inherited in an autosomal dominant manner, meaning that a child has a 50% chance of inheriting the condition from an affected parent. When two individuals with achondroplasia have a child, there is a 25% chance that the child will inherit two copies of the mutated gene and not survive (lethal condition), a 50% chance that the child will inherit one copy of the mutated gene and have achondroplasia, and a 25% chance that the child will inherit two normal copies of the gene and be unaffected. Therefore, the answer is (B) 33%."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Achondroplasia is an autosomal dominant disorder caused by a mutation in the FGFR3 gene. The chances of having a child with achondroplasia are 50%. However, the chance of having a child of average height is much lower, around 33%. This is because the child could inherit one normal copy of the gene from one parent, and one mutated copy from the other parent, making them a carrier but not affected by the condition."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to medical genetic sources for help. Achondroplasia is inherited in an autosomal dominant pattern. If both parents have achondroplasia, they each contribute one copy of the abnormal gene, resulting in a 25% chance of having a child with two copies (homozygous) of the abnormal gene (which is usually fatal), a 50% chance of having a child with achondroplasia (heterozygous), and a 25% chance of having a child who is unaffected by the condition (homozygous for the normal gene). Therefore, the answer is (B) 33%."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to a genetics resource for help. Achondroplasia is an autosomal dominant genetic disorder, meaning that there is a 50% chance that each of their offspring will inherit the condition. However, in order for the child to be unaffected by achondroplasia, both parents must pass on their normal genes, which occurs with a probability of 1/4 or 25%. Therefore, the chance that a live birth between two individuals with achondroplasia will result in an unaffected child is 25%, which corresponds to answer choice (B)."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to UpToDate for help. Achondroplasia is an autosomal dominant condition caused by mutations in the FGFR3 gene. When two individuals with achondroplasia have a child, there is a 25% chance that the child will inherit two copies of the mutated FGFR3 gene and have homozygous achondroplasia, which is usually fatal. There is a 50% chance that the child will inherit one copy of the mutated FGFR3 gene and have heterozygous achondroplasia, which is the classic form of the condition. Finally, there is a 25% chance that the child will inherit two normal copies of the FGFR3 gene and be of average height. Therefore, the percent of pregnancies between two individuals with achondroplasia that result in a live birth expected to be offspring that are unaffected by this condition is 25% + 25%, or 50%. To determine the chance that a specific pregnancy will result in an unaffected child, we use the Punnett square method."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to online medical resources for help. Achondroplasia is an autosomal dominant disorder, which means that it can be passed down from one parent to their child. The affected gene is located on chromosome 4. Each child of two achondroplastic parents has a 25% chance of inheriting two copies of the mutant gene and not surviving beyond birth, a 50% chance of inheriting one copy of the mutant gene and developing achondroplasia, and a 25% chance of inheriting two normal genes and being average height. So, out of all live births between two parents with achondroplasia, 33% would be expected to be unaffected by the condition. Therefore, the correct answer is (B) 33%."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Achondroplasia is a dominant genetic disorder, so there is a 50% chance that any offspring will inherit the disorder. However, only 25% of offspring from two parents with achondroplasia will not inherit the disorder and be of average height. The other 50% will inherit the disorder and 25% will inherit two copies of the gene and not survive. Therefore, the correct answer is (B) 33%."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to an article from the National Center for Biotechnology Information for help. The probability of two individuals with achondroplasia having a child of average height is 25%, while the probability of having an affected child is 50% and the probability of having a child with achondroplasia but with a genotype that is lethal in utero is 25%. Therefore, the percentage of pregnancies that result in unaffected offspring is 33%."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}

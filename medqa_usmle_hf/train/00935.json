@@ -1,0 +1,93 @@
+{
+    "id": "chatcmpl-6zdzX4crd0u4zrkHHFoIKfLSzxehn",
+    "object": "chat.completion",
+    "created": 1680149755,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 1425,
+        "completion_tokens": 1133,
+        "total_tokens": 2558
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is immunocompromised due to HIV infection, and missing immunization records. The most appropriate recommendation is the measles, mumps, rubella vaccine to prevent these illnesses which can cause severe complications in immunocompromised individuals. The hepatitis B vaccination history suggests that the patient may have had successful vaccination, so nothing further needs to be done for hepatitis B. The bacillus Calmette-Guerin vaccine is used to prevent tuberculosis and is not recommended for this patient. The yellow fever vaccine is not recommended for individuals with CD4 counts less than 200 cells/mm3."
+            },
+            "finish_reason": "stop",
+            "index": 0
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Among the options, only measles, mumps, rubella vaccine (MMR) is recommended for adults with HIV who are immunocompetent but lack evidence of immunity to measles, mumps, and rubella. The patient\u2019s CD4+ lymphocyte count is not too low to receive this vaccine. Bacillus Calmette Guerin vaccine is for tuberculosis and Yellow fever vaccine is contraindicated in HIV infection. No vaccination is not a recommended option as the patient lacks evidence of immunity to measles, mumps, and rubella."
+            },
+            "finish_reason": "stop",
+            "index": 1
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Among the options, only the measles, mumps, rubella (MMR) vaccine is recommended for this patient as he is immunocompromised due to his HIV status. The other options are not appropriate for this patient or contraindicated due to his immunocompromised status or previous vaccination."
+            },
+            "finish_reason": "stop",
+            "index": 2
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of HIV, but is receiving antiretroviral therapy and has a CD4+ count > 500, which means he is not immunocompromised. He should receive the measles, mumps, and rubella vaccine if he has not previously received it, especially if he plans to travel to Thailand where outbreaks of these diseases are common. The Bacillus Calmette Guerin vaccine is used for tuberculosis, which is not indicated in this patient. The yellow fever vaccine may be required for travel to certain countries, but Thailand is not one of them. No vaccination is not indicated as the patient has a history of incomplete immunization records."
+            },
+            "finish_reason": "stop",
+            "index": 3
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Based on the patient's history, the most appropriate recommendation is the measles, mumps, rubella (MMR) vaccine. The patient has a CD4+ T-lymphocyte count of 480 cells/mm3 which is higher than the threshold of 200 cells/mm3, making him eligible for the MMR vaccine. The other options are not indicated based on the patient's travel plans and immunization history."
+            },
+            "finish_reason": "stop",
+            "index": 4
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient is immunocompromised due to HIV, and his CD4 count is <500, which makes him suitable for receiving the measles, mumps, rubella vaccine. He is also planning to a trip to Thailand, but the Yellow Fever vaccine is not recommended for immunocompromised patients. The Bacillus Calmette Guerin vaccine is typically given for tuberculosis, and there is no indication for it in this patient. Since the patient already has a protective hepatitis B surface antibody level, there is no need for vaccination for that. Therefore, the most appropriate recommendation is the Measles, mumps, rubella vaccine."
+            },
+            "finish_reason": "stop",
+            "index": 5
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a normal CD4+ count and anti-HBs indicating immunity to hepatitis B. Yellow fever vaccine is not recommended for individuals with CD4+ count less than 500. The patient has a history of chickenpox and thus can receive the MMR vaccine. The other options are not indicated for this patient. Therefore, the most appropriate recommendation is to receive the measles, mumps, rubella vaccine."
+            },
+            "finish_reason": "stop",
+            "index": 6
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The physician should recommend the measles, mumps, rubella vaccine as the patient's CD4+ T-lymphocyte count is above 500, and the vaccine is safe for people living with HIV who have CD4+ T-lymphocyte counts greater than 200 cells/mm3. Bacillus Calmette Guerin vaccine (A) is a live vaccine and not recommended for people living with HIV, Yellow fever vaccine (C) is also a live vaccine and not recommended for people with CD4+ T-lymphocyte counts below 200-400 cells/mm3. The patient's anti-HBs level is already protective against hepatitis B, so another vaccination is not needed (D)."
+            },
+            "finish_reason": "stop",
+            "index": 7
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. Given the patient's history of HIV and CD4+ T-lymphocyte count below normal, live attenuated vaccines such as Bacillus Calmette Guerin and Yellow Fever should be avoided. The patient has already been vaccinated against hepatitis B and has a protective anti-HBs level. The best option is to administer measles, mumps, rubella vaccine as it is a killed or inactivated vaccine that poses no risk to the patient."
+            },
+            "finish_reason": "stop",
+            "index": 8
+        },
+        {
+            "message": {
+                "role": "assistant",
+                "content": "We refer to Wikipedia articles on medicine for help. The patient has a history of HIV and is immunocompromised, so it is recommended to check vaccine records and provide appropriate immunizations. Among the options, only the measles, mumps, rubella (MMR) vaccine is recommended for the patient's age and travel plans. The other options are either not indicated or contraindicated due to the patient's immunocompromised status."
+            },
+            "finish_reason": "stop",
+            "index": 9
+        }
+    ]
+}
